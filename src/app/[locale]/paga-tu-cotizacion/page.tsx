@@ -88,7 +88,7 @@ export default function CotizacionPersonalizadaPage() {
                       <CreditCard className="h-4 w-4" />
 
                       <span className="text-sm font-semibold">
-                        softvora.com
+                        softvora.com.mx
                       </span>
                     </div>
 

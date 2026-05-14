@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "consultoría TI",
     "respuesta a incidentes",
     "Softvora",
-    "softvora.com"
+    "softvora.com.mx"
   ],
 
   authors: [{ name: "Softvora" }],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
 
-  metadataBase: new URL("https://softvora.com"),
+  metadataBase: new URL("https://softvora.com.mx"),
 
   alternates: {
     canonical: "/",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Softvora | Expertos en Seguridad Informática y Ciberseguridad",
     description:
       "Protege tu empresa con servicios profesionales de ciberseguridad, pentesting, auditorías y consultoría tecnológica de Softvora.",
-    url: "https://softvora.com",
+    url: "https://softvora.com.mx",
     siteName: "Softvora",
     locale: "es_MX",
     type: "website",

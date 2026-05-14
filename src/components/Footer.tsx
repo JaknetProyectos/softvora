@@ -73,7 +73,7 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="mailto:gestion@softvora.com"
+                href="mailto:gestion@softvora.com.mx.mx"
                 className="group flex items-center gap-3 text-zinc-600 transition hover:text-yellow-600"
               >
                 <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-500 shadow-md">
@@ -81,7 +81,7 @@ export default function Footer() {
                 </div>
 
                 <span className="font-medium break-all">
-                  gestion@softvora.com
+                  gestion@softvora.com.mx.mx
                 </span>
               </Link>
             </div>
@@ -181,7 +181,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col gap-6 py-8 lg:flex-row lg:items-center lg:justify-between">
           <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} softvora.com · {t("copyright")}
+            © {new Date().getFullYear()} softvora.com.mx · {t("copyright")}
           </p>
 
           <div className="flex flex-wrap items-center gap-5 text-sm">

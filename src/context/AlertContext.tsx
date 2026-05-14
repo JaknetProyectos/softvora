@@ -200,7 +200,7 @@ export function AlertProvider({
               {/* FOOTER TEXT */}
               <div className="mt-5 text-center">
                 <span className="text-xs text-zinc-400">
-                  softvora.com
+                  softvora.com.mx
                 </span>
               </div>
             </div>

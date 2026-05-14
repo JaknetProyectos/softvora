@@ -102,7 +102,7 @@ export function SoporteQuoteCard() {
               </div>
 
               <p className="mt-5 text-center text-xs text-gray-400">
-                softvora.com
+                softvora.com.mx
               </p>
             </div>
           </div>

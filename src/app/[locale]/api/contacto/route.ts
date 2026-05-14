@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Softvora <gestion@softvora.com>",
+      from: "Softvora <gestion@softvora.com.mx.mx>",
       to: [email],
       subject: "Hemos recibido tu solicitud",
       html: `
@@ -114,16 +114,16 @@ export async function POST(req: Request) {
 
               <div style="margin-top:40px;text-align:center;">
                 <a
-                  href="https://softvora.com"
+                  href="https://softvora.com.mx"
                   style="display:inline-block;padding:16px 28px;background:linear-gradient(135deg,#f59e0b,#ea580c);color:white;text-decoration:none;border-radius:14px;font-weight:700;"
                 >
-                  Visitar softvora.com
+                  Visitar softvora.com.mx
                 </a>
               </div>
             </div>
 
             <div style="padding:30px;text-align:center;border-top:1px solid #27272a;color:#71717a;font-size:13px;">
-              © ${new Date().getFullYear()} softvora.com
+              © ${new Date().getFullYear()} softvora.com.mx
             </div>
 
           </div>
@@ -136,8 +136,8 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Formulario Web <gestion@softvora.com>",
-      to: ["ventas@softvora.com"],
+      from: "Formulario Web <gestion@softvora.com.mx.mx>",
+      to: ["ventas@softvora.com.mx"],
       subject: `Nuevo contacto recibido - ${asunto}`,
       html: `
         <div style="background:#09090b;padding:40px;font-family:Arial,sans-serif;color:#ffffff;">
@@ -149,7 +149,7 @@ export async function POST(req: Request) {
               </h1>
 
               <p style="margin-top:10px;color:#ffedd5;">
-                softvora.com
+                softvora.com.mx
               </p>
             </div>
 
@@ -217,7 +217,7 @@ export async function POST(req: Request) {
             </div>
 
             <div style="padding:30px;text-align:center;border-top:1px solid #27272a;color:#71717a;font-size:13px;">
-              Sistema automático de contacto · softvora.com
+              Sistema automático de contacto · softvora.com.mx
             </div>
 
           </div>
