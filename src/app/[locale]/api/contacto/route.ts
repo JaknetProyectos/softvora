@@ -61,9 +61,8 @@ export async function POST(req: Request) {
 
               </div>
 
-              ${
-                servicioDeseado
-                  ? `
+              ${servicioDeseado
+          ? `
                 <div style="margin-top:20px;background:#0f0f12;border:1px solid #27272a;border-radius:18px;padding:24px;">
                   
                   <p style="margin:0 0 12px 0;color:#a1a1aa;font-size:14px;">
@@ -76,12 +75,11 @@ export async function POST(req: Request) {
 
                 </div>
               `
-                  : ""
-              }
+          : ""
+        }
 
-              ${
-                presupuesto
-                  ? `
+              ${presupuesto
+          ? `
                 <div style="margin-top:20px;background:#0f0f12;border:1px solid #27272a;border-radius:18px;padding:24px;">
                   
                   <p style="margin:0 0 12px 0;color:#a1a1aa;font-size:14px;">
@@ -94,10 +92,11 @@ export async function POST(req: Request) {
 
                 </div>
               `
-                  : ""
-              }
+          : ""
+        }
 
-              <div style="margin-top:20px;background:#0f0f12;border:1px solid #27272a;border-radius:18px;padding:24px;">
+              ${mensaje
+          ? `<div style="margin-top:20px;background:#0f0f12;border:1px solid #27272a;border-radius:18px;padding:24px;">
                 
                 <p style="margin:0 0 12px 0;color:#a1a1aa;font-size:14px;">
                   Mensaje enviado
@@ -107,7 +106,11 @@ export async function POST(req: Request) {
                   ${mensaje}
                 </p>
 
-              </div>
+              </div>` :
+          ""
+        }
+
+              
 
               <div style="margin-top:40px;text-align:center;">
                 <a
@@ -166,39 +169,36 @@ export async function POST(req: Request) {
                   <strong>Correo:</strong> ${email}
                 </p>
 
-                ${
-                  telefono
-                    ? `
+                ${telefono
+          ? `
                   <p style="color:#d4d4d8;">
                     <strong>Teléfono:</strong> ${telefono}
                   </p>
                 `
-                    : ""
-                }
+          : ""
+        }
 
                 <p style="color:#d4d4d8;">
                   <strong>Asunto:</strong> ${asunto}
                 </p>
 
-                ${
-                  servicioDeseado
-                    ? `
+                ${servicioDeseado
+          ? `
                   <p style="color:#d4d4d8;">
                     <strong>Servicio deseado:</strong> ${servicioDeseado}
                   </p>
                 `
-                    : ""
-                }
+          : ""
+        }
 
-                ${
-                  presupuesto
-                    ? `
+                ${presupuesto
+          ? `
                   <p style="color:#d4d4d8;">
                     <strong>Presupuesto:</strong> ${presupuesto}
                   </p>
                 `
-                    : ""
-                }
+          : ""
+        }
 
               </div>
 
