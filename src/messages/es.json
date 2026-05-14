@@ -1,0 +1,817 @@
+{
+  "Header": {
+    "about": "Nosotros",
+    "payQuote": "Pagar Cotización",
+    "contact": "Contactar",
+    "language": {
+      "switchToEnglish": "Cambiar a Inglés",
+      "switchToSpanish": "Cambiar a Español"
+    },
+    "services": {
+      "title": "Servicios",
+      "dropdownTitle": "Servicios tecnológicos",
+      "dropdownDescription": "Soluciones premium para empresas",
+      "support": "Soporte y Mantenimiento",
+      "security": "Seguridad Informática",
+      "remote": "Soporte Remoto"
+    }
+  },
+  "HeroSection": {
+    "title": {
+      "firstLine": "Protegemos y",
+      "highlight": "Optimizamos",
+      "lastLine": "Tu Tecnología"
+    },
+    "description": "Soluciones modernas de soporte, seguridad informática y mantenimiento para mantener tu infraestructura estable, segura y eficiente.",
+    "features": {
+      "support": "Soporte Especializado",
+      "security": "Seguridad Empresarial",
+      "remote": "Atención Remota"
+    },
+    "contact": {
+      "buttonText": "Hablar con ventas",
+      "title": "Solicita información",
+      "submitText": "Enviar consulta"
+    },
+    "viewServices": "Ver servicios",
+    "imageAlt": "Equipo tecnológico",
+    "floatingCard": {
+      "label": "Infraestructura Segura",
+      "title": "Tecnología Empresarial"
+    }
+  },
+  "CheckoutPage": {
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "description": "Agrega servicios al carrito antes de proceder al checkout.",
+      "cta": "Explorar servicios"
+    },
+    "hero": {
+      "badge": "Checkout seguro",
+      "title": "Finaliza tu compra",
+      "description": "Revisa tu carrito, completa tus datos y realiza el pago con un diseño limpio, elegante y enfocado en conversión."
+    },
+    "form": {
+      "paymentSectionTitle": "Datos de pago",
+      "orderPrefix": "Orden:",
+      "fields": {
+        "firstName": {
+          "label": "Nombre",
+          "placeholder": "Juan"
+        },
+        "lastName": {
+          "label": "Apellido",
+          "placeholder": "Pérez"
+        },
+        "email": {
+          "label": "Correo",
+          "placeholder": "correo@dominio.com"
+        },
+        "telefono": {
+          "label": "Teléfono",
+          "placeholder": "55 0000 0000"
+        },
+        "city": {
+          "label": "Ciudad",
+          "placeholder": "Ciudad de México"
+        },
+        "direccion": {
+          "label": "Dirección",
+          "placeholder": "Calle, número, colonia"
+        },
+        "state": {
+          "label": "Estado",
+          "placeholder": "CDMX"
+        },
+        "cp": {
+          "label": "Código postal",
+          "placeholder": "01000"
+        },
+        "country": {
+          "label": "País",
+          "placeholder": "MX"
+        },
+        "cardNumber": {
+          "label": "Número de tarjeta",
+          "placeholder": "0000 0000 0000 0000"
+        },
+        "cardName": {
+          "label": "Nombre en la tarjeta",
+          "placeholder": "JUAN PEREZ"
+        },
+        "month": {
+          "label": "Mes",
+          "placeholder": "Mes"
+        },
+        "year": {
+          "label": "Año",
+          "placeholder": "Año"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123"
+        }
+      },
+      "cardSectionTitle": "Datos de la tarjeta"
+    },
+    "buttons": {
+      "processing": "Procesando pago...",
+      "payNow": "Pagar ahora"
+    },
+    "summary": {
+      "title": "Resumen",
+      "itemsCount": "{count, plural, one {# producto} other {# productos}}",
+      "empty": "Tu carrito está vacío.",
+      "quantityPrefix": "x",
+      "subtotal": "Subtotal",
+      "tax": "IVA (16%)",
+      "total": "Total"
+    },
+    "security": {
+      "title": "Pago seguro",
+      "description": "El cobro se procesa con Etomin usando autenticación, tokenización de tarjeta y venta directa desde el servidor.",
+      "protected": "Datos protegidos en tránsito"
+    },
+    "logos": {
+      "cardsAlt": "Tarjetas aceptadas",
+      "etominAlt": "Pasarela de pago Etomin"
+    },
+    "success": "Pago procesado correctamente. Tu orden fue registrada con éxito.",
+    "errors": {
+      "emptyCart": "Tu carrito está vacío.",
+      "firstName": "El nombre es obligatorio.",
+      "lastName": "El apellido es obligatorio.",
+      "email": "El correo es obligatorio.",
+      "telefono": "El teléfono es obligatorio.",
+      "city": "La ciudad es obligatoria.",
+      "direccion": "La dirección es obligatoria.",
+      "state": "El estado es obligatorio.",
+      "cp": "El código postal es obligatorio.",
+      "country": "El país es obligatorio.",
+      "cardNumber": "El número de tarjeta es obligatorio.",
+      "cardName": "El nombre de la tarjeta es obligatorio.",
+      "month": "El mes de expiración es obligatorio.",
+      "year": "El año de expiración es obligatorio.",
+      "cvv": "El CVV es obligatorio.",
+      "paymentFailed": "Error al procesar el pago"
+    }
+  },
+  "aboutSection": {
+    "imageAlt": "Equipo de tecnología",
+    "floatingCard": {
+      "label": "Soluciones Empresariales",
+      "title": "Tecnología Segura y Moderna"
+    },
+    "label": "Quiénes Somos",
+    "title": {
+      "line1": "Tecnología,",
+      "highlight": "Seguridad y Soporte",
+      "line2": "para tu empresa"
+    },
+    "description": "Brindamos soluciones especializadas de soporte técnico, mantenimiento y seguridad informática para ayudar a las empresas a operar con estabilidad, protección y mayor eficiencia.",
+    "features": {
+      "security": {
+        "title": "Seguridad",
+        "description": "Protección avanzada para tu infraestructura."
+      },
+      "support": {
+        "title": "Soporte",
+        "description": "Atención técnica especializada y remota."
+      },
+      "continuity": {
+        "title": "Continuidad",
+        "description": "Infraestructura estable para tu negocio."
+      }
+    }
+  },
+   "featuresSection": {
+    "badge": "Beneficios",
+    "title": {
+      "line1": "Soluciones diseñadas para",
+      "highlight": "proteger y optimizar",
+      "line2": "tu empresa"
+    },
+    "description": "Tecnología moderna, soporte eficiente y seguridad empresarial adaptada a las necesidades de tu operación.",
+    "items": {
+      "security": {
+        "title": "Seguridad",
+        "description": "La seguridad de la informacion es esencial en la era digital. Por ello, el soporte informatico para empresas implementa diferentes medidas de seguridad para proteger los datos empresariales."
+      },
+      "update": {
+        "title": "Actualizacion",
+        "description": "El soporte informatico para empresas mantiene todos los sistemas actualizados, asegurando tecnologias optimizadas y eficientes."
+      },
+      "flexibility": {
+        "title": "Flexibilidad Y Escalabilidad",
+        "description": "Los servicios de soporte informatico pueden adaptarse facilmente a las necesidades cambiantes de tu empresa."
+      },
+      "support": {
+        "title": "Atencion Al Cliente",
+        "description": "Respuesta rapida y soporte eficiente para mantener la continuidad operativa de tu negocio."
+      }
+    }
+  },
+   "servicesSection": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones tecnológicas para empresas modernas.",
+    "description": "Soporte, seguridad y asistencia especializada para mantener tu infraestructura funcionando al máximo nivel.",
+    "serviceLabel": "Servicio especializado",
+    "viewService": "Ver servicio",
+    "services": {
+      "softwareSupport": {
+        "title": "Soporte y Mantenimiento de Software"
+      },
+      "cybersecurity": {
+        "title": "Seguridad Informatica"
+      },
+      "remoteSupport": {
+        "title": "Soporte Remoto y en Sitio"
+      }
+    }
+  },
+  "ctaSection": {
+    "badge": "Softvora",
+    "imageAlt": "Equipo de trabajo en reunion",
+    "title": "Actualiza, protege y asegura el rendimiento de tu negocio.",
+    "description": "Impulsa tu infraestructura tecnológica con soporte especializado, seguridad informática y soluciones modernas para tu empresa.",
+    "viewServices": "Ver Servicios",
+    "contactButton": {
+      "buttonText": "Solicitar Información",
+      "title": "Habla con un especialista",
+      "submitText": "Enviar Solicitud"
+    }
+  },
+  "whyChooseUs": {
+    "badge": "¿Por qué escogernos?",
+    "title": "En Softvora hacemos las cosas diferente.",
+    "description": "Tecnología moderna, soporte especializado y soluciones diseñadas para empresas que buscan estabilidad, seguridad y crecimiento.",
+    "imageAlt": "Equipo trabajando",
+    "moreTrust": "Más confianza",
+    "reasons": {
+      "specializedStaff": {
+        "title": "Personal Especializado",
+        "description": "Contamos con personal capacitado profesionalmente."
+      },
+      "proactiveApproach": {
+        "title": "Proactive Approach",
+        "description": "Adoptamos un enfoque proactivo en el soporte de TI, monitoreando continuamente tus sistemas."
+      },
+      "scalability": {
+        "title": "Soluciones y escalabilidad",
+        "description": "Entendemos que cada negocio es unico buscando adaptar la mejor solucion para tu empresa"
+      },
+      "securityMeasures": {
+        "title": "Medidas de seguridad robustas",
+        "description": "Priorizamos la seguridad de tus datos y sistemas confidenciales."
+      }
+    }
+  },
+   "QuoteSection": {
+    "badge": "Softvora",
+    "quote": "Aportamos nuestra experiencia y compromiso a cada proyecto para establecer relaciones sólidas y de largo plazo, fundamentadas en la confianza. Estamos contigo en todas las fases del ciclo de vida del proyecto, asegurando calidad y resultados.",
+    "footer": "Seguridad • Soporte • Innovación"
+  },
+   "Footer": {
+    "description": "Soluciones tecnológicas modernas para empresas y profesionales. Infraestructura, soporte, seguridad y servicios premium con atención especializada.",
+    "paymentMethods": "Métodos de pago",
+
+    "contact": {
+      "title": "Contacto"
+    },
+
+    "services": {
+      "title": "Servicios",
+      "support": "Soporte y Mantenimiento",
+      "security": "Seguridad Informática",
+      "remote": "Soporte Remoto y en Sitio",
+      "quote": "Paga tu Cotización"
+    },
+
+    "office": {
+      "title": "Oficina Principal",
+      "address1": "CALLE LONDRES 275, INT. A,",
+      "address2": "COL. JUÁREZ, CUAUHTÉMOC,",
+      "address3": "C.P. 06600, CDMX",
+      "location": "Ver ubicación"
+    },
+
+    "copyright": "Todos los derechos reservados.",
+
+    "links": {
+      "privacy": "Aviso de Privacidad",
+      "terms": "Términos y Condiciones",
+      "refunds": "Políticas de Reembolso"
+    }
+  },
+   "customQuote": {
+    "hero": {
+      "badge": "Checkout seguro empresarial",
+      "title": "Paga tu Cotización Personalizada",
+      "description": "Agrega una cotización acordada previamente con nuestro equipo y continúa con el proceso de pago de forma segura."
+    },
+    "left": {
+      "title": "Soluciones premium para empresas modernas",
+      "description": "Nuestro sistema permite agregar cotizaciones personalizadas acordadas previamente con nuestros especialistas para continuar directamente al checkout."
+    },
+    "features": {
+      "security": {
+        "title": "Seguridad empresarial",
+        "description": "Pagos protegidos y cifrados para clientes corporativos."
+      },
+      "billing": {
+        "title": "Facturación flexible",
+        "description": "Procesa cotizaciones personalizadas y pagos acordados."
+      }
+    },
+    "form": {
+      "title": "Agregar Cotización",
+      "description": "Introduce los datos proporcionados por nuestro equipo.",
+      "quoteId": "ID de Cotización",
+      "quotePlaceholder": "Ej. PT-2026-001",
+      "amount": "Monto acordado (sin IVA)"
+    },
+    "important": {
+      "label": "Importante:",
+      "text": "el monto ingresado debe ser sin IVA. El cálculo fiscal será realizado automáticamente durante el checkout."
+    },
+    "button": "Agregar al carrito",
+    "secure": "Pago seguro y protegido",
+    "imageAlt": "Tecnología empresarial",
+    "alerts": {
+      "quoteRequired": "Debes ingresar un ID de cotización",
+      "invalidAmount": "Debes ingresar un monto válido"
+    },
+    "cart": {
+      "quote": "Cotización",
+      "description": "Cotización personalizada acordada externamente"
+    }
+  },
+
+  "securityServicePage": {
+    "hero": {
+      "badge": "Seguridad Empresarial",
+      "title": {
+        "line1": "Seguridad",
+        "highlight": "Informática"
+      },
+      "description": "Protegemos tu infraestructura digital con soluciones modernas, monitoreo inteligente y estrategias avanzadas de seguridad tecnológica.",
+      "primaryCta": "Ver Servicios",
+      "secondaryCta": "Ver carrito",
+      "imageAlt": "Seguridad informática",
+      "overlayTitle": "Infraestructura Protegida",
+      "overlayDescription": "Soluciones diseñadas para empresas modernas que requieren seguridad, estabilidad y respuesta inmediata."
+    },
+    "stats": {
+      "monitoring": "Monitoreo continuo",
+      "protection": "Protección activa",
+      "tier": "Elite",
+      "premiumSecurity": "Seguridad premium"
+    },
+    "featuresSection": {
+      "badge": "Protección avanzada",
+      "title": {
+        "line1": "Tecnología de seguridad",
+        "highlight": "de nueva generación"
+      },
+      "description": "Diseñamos estrategias tecnológicas para proteger información, servidores y operaciones críticas."
+    },
+    "features": {
+      "proactive": {
+        "title": "Proteccion Proactiva",
+        "description": "Detectamos y neutralizamos amenazas antes de que afecten tu negocio"
+      },
+      "encryption": {
+        "title": "Cifrado de Datos",
+        "description": "Protegemos tu informacion sensible con los mas altos estandares de cifrado"
+      },
+      "monitoring": {
+        "title": "Monitoreo Continuo",
+        "description": "Vigilancia 24/7 de tu infraestructura para detectar actividad sospechosa"
+      }
+    },
+    "plansSection": {
+      "badge": "Servicios disponibles",
+      "title": "Soluciones de seguridad",
+      "description": "Elige el nivel de protección ideal para tu operación tecnológica.",
+      "recommended": "Recomendado",
+      "addToCart": "Agregar al carrito"
+    },
+    "plans": {
+      "mcafee": {
+        "name": "McAfee Total Protection",
+        "description": "Suite completa de seguridad digital para proteger dispositivos y datos personales.",
+        "features": [
+          "Protección contra virus, malware, ransomware y spyware",
+          "Herramientas de privacidad incluidas",
+          "Gestión segura de contraseñas",
+          "Compatible con Windows, macOS, Android e iOS",
+          "Cobertura para un dispositivo"
+        ]
+      },
+      "kaspersky": {
+        "name": "Kaspersky Standard",
+        "description": "Protección esencial contra amenazas digitales para equipos Windows.",
+        "features": [
+          "Protección contra virus y malware",
+          "Firewall integrado",
+          "Protección de datos personales",
+          "Compatible con Windows",
+          "Cobertura para un dispositivo"
+        ]
+      },
+      "bitdefender": {
+        "name": "Bitdefender Total Security",
+        "description": "Protección avanzada y rendimiento optimizado para múltiples plataformas.",
+        "features": [
+          "Protección contra virus, ransomware y spyware",
+          "Seguridad avanzada en tiempo real",
+          "Optimización de rendimiento del sistema",
+          "Compatible con Windows, macOS, Android e iOS",
+          "Cobertura para un dispositivo"
+        ]
+      },
+      "norton": {
+        "name": "Norton AntiVirus Plus",
+        "description": "Protección integral con respaldo en la nube y herramientas de seguridad avanzadas.",
+        "features": [
+          "Protección contra virus, malware y ransomware",
+          "Firewall inteligente incluido",
+          "Gestor de contraseñas integrado",
+          "Copia de seguridad en la nube",
+          "Compatible con Windows, macOS, Android e iOS"
+        ]
+      },
+      "totalav": {
+        "name": "TotalAV Antivirus",
+        "description": "Protección en tiempo real con herramientas adicionales de privacidad y optimización.",
+        "features": [
+          "Protección en tiempo real contra amenazas",
+          "VPN incluida",
+          "Limpiador de navegador",
+          "Gestor de contraseñas",
+          "Compatible con Windows, macOS, Android e iOS"
+        ]
+      }
+    }
+  },
+   "supportMaintenancePage": {
+    "hero": {
+      "badge": "SERVICIO 01",
+      "title": {
+        "line1": "Support and",
+        "highlight": "Maintenance",
+        "line2": "of Software"
+      },
+      "description": "Keep your technology infrastructure running in a stable, secure, and efficient way with specialized support and professional technical assistance.",
+      "primaryCta": "View Services",
+      "secondaryCta": "View Cart",
+      "imageAlt": "Support and maintenance"
+    },
+    "featuresSection": {
+      "badge": "BENEFITS",
+      "title": "Modern technical support",
+      "description": "Specialized services to keep your systems operating without interruptions and with the best possible performance."
+    },
+    "features": {
+      "remoteSupport": {
+        "title": "Remote Support",
+        "desc": "Immediate assistance to resolve technical incidents and operational problems."
+      },
+      "updates": {
+        "title": "Updates",
+        "desc": "Preventive maintenance, security improvements, and system updates."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "desc": "Configuration and performance improvement of software and business equipment."
+      }
+    },
+    "plansSection": {
+      "badge": "AVAILABLE PLANS",
+      "title": "Choose your service",
+      "description": "Solutions designed for companies, offices, and users who require professional support.",
+      "mostRequested": "MOST REQUESTED",
+      "addToCart": "Add to cart"
+    },
+    "plans": {
+      "installationBasic": {
+        "name": "Installation or Update of Basic Program",
+        "description": "Installation or configuration of basic software for home computers.",
+        "features": [
+          "Browser, antivirus, or basic Office installation",
+          "Initial software configuration",
+          "Compatibility with home equipment",
+          "Remote or in-person support",
+          "Assistance for individual users"
+        ]
+      },
+      "corporateSoftware": {
+        "name": "Install/Configure Corporate Software",
+        "description": "Corporate software setup for small offices and work teams.",
+        "features": [
+          "Configuration for up to 2 users",
+          "Business software installation",
+          "Initial network configuration",
+          "Basic integration support",
+          "Licenses and advanced configurations at an additional cost"
+        ]
+      },
+      "osUpdate": {
+        "name": "Operating System Update",
+        "description": "Complete migration to modern versions of operating system or software.",
+        "features": [
+          "Windows 10 → 11 upgrade",
+          "Office 2016 → 2021 migration",
+          "Pre-update configuration backup",
+          "Post-update optimization",
+          "Additional configuration included"
+        ]
+      },
+      "officeSimpleIssue": {
+        "name": "Simple Office Application Issue",
+        "description": "Resolution of problems in basic office applications.",
+        "features": [
+          "Correction of a single application",
+          "Support for individual users",
+          "Quick diagnosis",
+          "Basic setup and repair",
+          "Remote support available"
+        ]
+      },
+      "complexProductiveIssue": {
+        "name": "Complex Productive Application Issue",
+        "description": "Diagnosis and solution of business applications with multiple modules and integrations.",
+        "features": [
+          "Support for 2–4 modules",
+          "Integration fixes",
+          "Performance diagnosis",
+          "Resolution of system conflicts",
+          "Support for multiple users"
+        ]
+      },
+      "severeProblem": {
+        "name": "Severe Problem",
+        "description": "Attention to critical incidents related to servers, outages, or data loss.",
+        "features": [
+          "Recovery from critical outages",
+          "Incompatibility diagnosis",
+          "Data loss analysis",
+          "Priority support",
+          "Intervention in business servers"
+        ]
+      },
+      "basicOptimization": {
+        "name": "Basic Optimization",
+        "description": "Performance improvement for personal computers or home laptops.",
+        "features": [
+          "Operating system optimization",
+          "Removal of unnecessary processes",
+          "General speed improvement",
+          "Optimization for individual users",
+          "Basic security review"
+        ]
+      },
+      "officeOptimization": {
+        "name": "Office Computer Optimization",
+        "description": "Optimization of office equipment with corporate software and multiple configurations.",
+        "features": [
+          "Optimization for 1–2 devices",
+          "Software conflict fixes",
+          "Business performance improvement",
+          "Work tools configuration",
+          "Support for office environments"
+        ]
+      },
+      "mediumServerOptimization": {
+        "name": "Small / Medium Server Optimization",
+        "description": "Performance optimization for servers and critical systems.",
+        "features": [
+          "Database optimization",
+          "Cache and performance tuning",
+          "Advanced server configuration",
+          "Stability improvements",
+          "Critical resource analysis"
+        ]
+      },
+      "enterpriseServerOptimization": {
+        "name": "Enterprise Server Optimization",
+        "description": "Deep optimization for high-demand enterprise environments.",
+        "features": [
+          "Advanced database optimization",
+          "Network and storage tuning",
+          "High-demand analysis",
+          "Multi-application optimization",
+          "Comprehensive infrastructure improvement"
+        ]
+      }
+    }
+  },
+  "remoteSupportPage": {
+    "hero": {
+      "title": "Soporte Remoto",
+      "titleHighlight": "y en Sitio",
+      "description": "Soluciones técnicas rápidas y eficientes para servidores, software, hardware y plataformas empresariales.",
+      "viewServices": "Ver Servicios",
+      "viewCart": "Ver Carrito",
+      "imageAlt": "Soporte remoto"
+    },
+
+    "benefits": {
+      "badge": "SOPORTE ESPECIALIZADO",
+      "title": "Atención rápida y profesional",
+      "description": "Servicios técnicos diseñados para resolver incidencias críticas y mantener tu operación funcionando.",
+
+      "items": {
+        "instantSupport": {
+          "title": "Soporte Remoto Instantáneo",
+          "description": "Resolvemos problemas en minutos sin necesidad de esperar visitas"
+        },
+
+        "onsiteVisits": {
+          "title": "Visitas en Sitio",
+          "description": "Cuando es necesario, nuestros ingenieros van a tu ubicación"
+        },
+
+        "extendedAvailability": {
+          "title": "Disponibilidad Extendida",
+          "description": "Horarios flexibles que se adaptan a tu operación"
+        }
+      }
+    },
+
+    "quantity": {
+      "hoursRequired": "Horas requeridas"
+    },
+
+    "plans": {
+      "badge": "SERVICIOS DISPONIBLES",
+      "title": "Elige tu soporte técnico",
+      "description": "Contrata soporte remoto, administración de servidores o asistencia especializada por horas.",
+      "mostRequested": "MÁS SOLICITADO",
+      "perHour": "MXN/hora",
+      "estimatedTotal": "Total estimado",
+      "hours": "horas",
+      "addHoursToCart": "Agregar {hours}h al carrito",
+
+      "items": {
+        "analisis-desarrollo-web": {
+          "name": "Análisis y Desarrollo Web",
+          "description": "Configuración remota, soporte en cPanel y administración de servidores CentOS.",
+          "features": [
+            "Desarrollo y análisis web",
+            "Configuración remota especializada",
+            "Soporte en cPanel",
+            "Administración de servidores CentOS",
+            "Diagnóstico y optimización",
+            "Atención por hora"
+          ]
+        },
+
+        "soporte-servidores-linux-windows": {
+          "name": "Soporte para Servidores Linux y Windows",
+          "description": "Soporte técnico remoto para administración y mantenimiento de servidores.",
+          "features": [
+            "Administración de servidores Linux",
+            "Soporte para servidores Windows",
+            "Diagnóstico de fallas",
+            "Configuración básica y avanzada",
+            "Monitoreo y mantenimiento",
+            "Atención por hora"
+          ]
+        },
+
+        "soporte-teamviewer": {
+          "name": "Soporte Remoto vía TeamViewer",
+          "description": "Asistencia técnica remota telefónica o virtual mediante TeamViewer.",
+          "features": [
+            "Conexión remota segura",
+            "Soporte telefónico",
+            "Asistencia virtual inmediata",
+            "Resolución de incidencias rápidas",
+            "Compatible con múltiples dispositivos",
+            "Atención por hora"
+          ]
+        },
+
+        "soporte-software-hardware": {
+          "name": "Soporte Remoto de Software y Hardware",
+          "description": "Diagnóstico y solución de problemas relacionados con software y hardware.",
+          "features": [
+            "Diagnóstico de hardware",
+            "Solución de problemas de software",
+            "Asistencia remota especializada",
+            "Optimización de rendimiento",
+            "Configuración de dispositivos",
+            "Atención por hora"
+          ]
+        },
+
+        "conexion-remota": {
+          "name": "Soporte Técnico por Conexión Remota",
+          "description": "Soporte remoto mediante conexión segura para resolver incidencias técnicas.",
+          "features": [
+            "Acceso remoto seguro",
+            "Resolución rápida de problemas",
+            "Configuración y mantenimiento",
+            "Compatibilidad con Windows y Linux",
+            "Atención personalizada",
+            "Atención por hora"
+          ]
+        },
+
+        "soporte-247": {
+          "name": "Soporte Telefónico y Remoto 24/7",
+          "description": "Servicio continuo de soporte remoto y telefónico disponible las 24 horas.",
+          "features": [
+            "Disponibilidad 24/7",
+            "Soporte remoto continuo",
+            "Atención telefónica inmediata",
+            "Resolución de incidencias críticas",
+            "Asistencia para usuarios y empresas",
+            "Atención por hora"
+          ]
+        }
+      }
+    }
+  },
+  "ContactModal": {
+    "title": "Contacto",
+    "submitText": "Enviar mensaje",
+    "openButton": "Contactar",
+    "closeModal": "Cerrar modal",
+    "sending": "Enviando...",
+    "cancel": "Cancelar",
+    "topBar": {
+      "label": "Formulario de contacto",
+      "subtitle": "Solo completa los campos que necesites."
+    },
+    "left": {
+      "title": "Hablemos de tu proyecto",
+      "description": "Completa tus datos y te contactaremos con una propuesta clara y profesional.",
+      "email": "gestion@softvora.com",
+      "phone": "55 5533 2511",
+      "support": "Atención personalizada y seguimiento"
+    },
+    "fields": {
+      "nombre": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre"
+      },
+      "apellidos": {
+        "label": "Apellidos",
+        "placeholder": "Tus apellidos"
+      },
+      "email": {
+        "label": "Correo",
+        "placeholder": "tu@email.com"
+      },
+      "telefono": {
+        "label": "Teléfono",
+        "placeholder": "+52 ..."
+      },
+      "asunto": {
+        "label": "Asunto",
+        "placeholder": "Cotización / soporte / información"
+      },
+      "servicioDeseado": {
+        "label": "Servicio deseado",
+        "placeholder": "Describe el servicio que necesitas"
+      },
+      "presupuesto": {
+        "label": "Presupuesto",
+        "placeholder": "Ej. $1,000 - $2,000"
+      },
+      "mensaje": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos qué necesitas"
+      }
+    }
+  },
+  "SoporteQuoteCard": {
+    "badge": "Soporte Premium",
+    "title": {
+      "line1": "Cotiza servicios de",
+      "line2": "soporte tecnológico"
+    },
+    "description": "Nuestro equipo puede ayudarte con soporte remoto, mantenimiento, seguridad informática y asistencia técnica especializada.",
+    "features": {
+      "specialized": {
+        "title": "Atención especializada",
+        "description": "Soporte técnico remoto y empresarial."
+      },
+      "fast": {
+        "title": "Respuesta rápida",
+        "description": "Tiempo promedio menor a 24 horas."
+      }
+    },
+    "card": {
+      "title": "Solicitar cotización",
+      "description": "Completa el formulario y un especialista se pondrá en contacto contigo."
+    },
+    "button": {
+      "text": "Solicitar Cotización",
+      "modalTitle": "Cotizar Servicio",
+      "submitText": "Enviar Solicitud"
+    }
+  }
+}

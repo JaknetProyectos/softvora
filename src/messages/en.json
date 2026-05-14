@@ -1,0 +1,811 @@
+{
+  "Header": {
+    "about": "About Us",
+    "payQuote": "Pay Quote",
+    "contact": "Contact",
+    "language": {
+      "switchToEnglish": "Switch to English",
+      "switchToSpanish": "Switch to Spanish"
+    },
+    "services": {
+      "title": "Services",
+      "dropdownTitle": "Technology Services",
+      "dropdownDescription": "Premium solutions for companies",
+      "support": "Support and Maintenance",
+      "security": "Cybersecurity",
+      "remote": "Remote Support"
+    }
+  },
+  "HeroSection": {
+    "title": {
+      "firstLine": "We Protect and",
+      "highlight": "Optimize",
+      "lastLine": "Your Technology"
+    },
+    "description": "Modern support, cybersecurity, and maintenance solutions to keep your infrastructure stable, secure, and efficient.",
+    "features": {
+      "support": "Specialized Support",
+      "security": "Enterprise Security",
+      "remote": "Remote Assistance"
+    },
+    "contact": {
+      "buttonText": "Talk to sales",
+      "title": "Request information",
+      "submitText": "Send inquiry"
+    },
+    "viewServices": "View services",
+    "imageAlt": "Technology team",
+    "floatingCard": {
+      "label": "Secure Infrastructure",
+      "title": "Enterprise Technology"
+    }
+  },
+  "CheckoutPage": {
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Add services to the cart before proceeding to checkout.",
+      "cta": "Explore services"
+    },
+    "hero": {
+      "badge": "Secure checkout",
+      "title": "Complete your purchase",
+      "description": "Review your cart, fill in your details, and make the payment with a clean, elegant design focused on conversion."
+    },
+    "form": {
+      "paymentSectionTitle": "Payment details",
+      "orderPrefix": "Order:",
+      "fields": {
+        "firstName": {
+          "label": "First name",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "label": "Last name",
+          "placeholder": "Doe"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "email@domain.com"
+        },
+        "telefono": {
+          "label": "Phone",
+          "placeholder": "555 000 0000"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Mexico City"
+        },
+        "direccion": {
+          "label": "Address",
+          "placeholder": "Street, number, neighborhood"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "CDMX"
+        },
+        "cp": {
+          "label": "ZIP code",
+          "placeholder": "01000"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "MX"
+        },
+        "cardNumber": {
+          "label": "Card number",
+          "placeholder": "0000 0000 0000 0000"
+        },
+        "cardName": {
+          "label": "Name on card",
+          "placeholder": "JOHN DOE"
+        },
+        "month": {
+          "label": "Month",
+          "placeholder": "Month"
+        },
+        "year": {
+          "label": "Year",
+          "placeholder": "Year"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123"
+        }
+      },
+      "cardSectionTitle": "Card details"
+    },
+    "buttons": {
+      "processing": "Processing payment...",
+      "payNow": "Pay now"
+    },
+    "summary": {
+      "title": "Summary",
+      "itemsCount": "{count, plural, one {# product} other {# products}}",
+      "empty": "Your cart is empty.",
+      "quantityPrefix": "x",
+      "subtotal": "Subtotal",
+      "tax": "VAT (16%)",
+      "total": "Total"
+    },
+    "security": {
+      "title": "Secure payment",
+      "description": "The charge is processed with Etomin using authentication, card tokenization, and direct server-side sales.",
+      "protected": "Data protected in transit"
+    },
+    "logos": {
+      "cardsAlt": "Accepted cards",
+      "etominAlt": "Etomin payment gateway"
+    },
+    "success": "Payment processed successfully. Your order was registered successfully.",
+    "errors": {
+      "emptyCart": "Your cart is empty.",
+      "firstName": "First name is required.",
+      "lastName": "Last name is required.",
+      "email": "Email is required.",
+      "telefono": "Phone is required.",
+      "city": "City is required.",
+      "direccion": "Address is required.",
+      "state": "State is required.",
+      "cp": "ZIP code is required.",
+      "country": "Country is required.",
+      "cardNumber": "Card number is required.",
+      "cardName": "Name on card is required.",
+      "month": "Expiration month is required.",
+      "year": "Expiration year is required.",
+      "cvv": "CVV is required.",
+      "paymentFailed": "Error processing payment"
+    }
+  },
+  "aboutSection": {
+    "imageAlt": "Technology team",
+    "floatingCard": {
+      "label": "Enterprise Solutions",
+      "title": "Secure and Modern Technology"
+    },
+    "label": "About Us",
+    "title": {
+      "line1": "Technology,",
+      "highlight": "Security and Support",
+      "line2": "for your company"
+    },
+    "description": "We provide specialized technical support, maintenance, and cybersecurity solutions to help businesses operate with stability, protection, and greater efficiency.",
+    "features": {
+      "security": {
+        "title": "Security",
+        "description": "Advanced protection for your infrastructure."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Specialized and remote technical assistance."
+      },
+      "continuity": {
+        "title": "Continuity",
+        "description": "Stable infrastructure for your business."
+      }
+    }
+  },
+  "featuresSection": {
+    "badge": "Benefits",
+    "title": {
+      "line1": "Solutions designed to",
+      "highlight": "protect and optimize",
+      "line2": "your business"
+    },
+    "description": "Modern technology, efficient support, and enterprise-grade security tailored to your operational needs.",
+    "items": {
+      "security": {
+        "title": "Security",
+        "description": "Information security is essential in the digital era. That is why IT support services for businesses implement different security measures to protect corporate data."
+      },
+      "update": {
+        "title": "Updates",
+        "description": "Business IT support keeps all systems updated, ensuring optimized and efficient technologies."
+      },
+      "flexibility": {
+        "title": "Flexibility And Scalability",
+        "description": "IT support services can easily adapt to the changing needs of your company."
+      },
+      "support": {
+        "title": "Customer Support",
+        "description": "Fast response and efficient support to maintain the operational continuity of your business."
+      }
+    }
+  },
+  "servicesSection": {
+    "badge": "Our Services",
+    "title": "Technology solutions for modern businesses.",
+    "description": "Support, security, and specialized assistance to keep your infrastructure operating at the highest level.",
+    "serviceLabel": "Specialized service",
+    "viewService": "View service",
+    "services": {
+      "softwareSupport": {
+        "title": "Software Support and Maintenance"
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity"
+      },
+      "remoteSupport": {
+        "title": "Remote and On-Site Support"
+      }
+    }
+  },
+  "ctaSection": {
+    "badge": "Softvora",
+    "imageAlt": "Work team in a meeting",
+    "title": "Upgrade, protect, and secure your business performance.",
+    "description": "Boost your technology infrastructure with specialized support, cybersecurity, and modern solutions for your business.",
+    "viewServices": "View Services",
+    "contactButton": {
+      "buttonText": "Request Information",
+      "title": "Talk to a specialist",
+      "submitText": "Send Request"
+    }
+  },
+  "whyChooseUs": {
+    "badge": "Why choose us?",
+    "title": "At Softvora, we do things differently.",
+    "description": "Modern technology, specialized support, and solutions designed for businesses seeking stability, security, and growth.",
+    "imageAlt": "Team working",
+    "moreTrust": "More trust",
+    "reasons": {
+      "specializedStaff": {
+        "title": "Specialized Staff",
+        "description": "We have professionally trained personnel."
+      },
+      "proactiveApproach": {
+        "title": "Proactive Approach",
+        "description": "We adopt a proactive IT support approach by continuously monitoring your systems."
+      },
+      "scalability": {
+        "title": "Solutions and Scalability",
+        "description": "We understand that every business is unique, seeking to adapt the best solution for your company."
+      },
+      "securityMeasures": {
+        "title": "Robust Security Measures",
+        "description": "We prioritize the security of your confidential data and systems."
+      }
+    }
+  },
+  "QuoteSection": {
+    "badge": "Softvora",
+    "quote": "We bring our experience and commitment to every project to build strong long-term relationships based on trust. We support you throughout every stage of the project lifecycle, ensuring quality and results.",
+    "footer": "Security • Support • Innovation"
+  },
+  "Footer": {
+    "description": "Modern technology solutions for businesses and professionals. Infrastructure, support, cybersecurity, and premium services with specialized assistance.",
+    "paymentMethods": "Payment methods",
+    "contact": {
+      "title": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "support": "Support & Maintenance",
+      "security": "Cybersecurity",
+      "remote": "Remote & On-Site Support",
+      "quote": "Pay Your Quote"
+    },
+    "office": {
+      "title": "Main Office",
+      "address1": "275 LONDON STREET, SUITE A,",
+      "address2": "JUÁREZ, CUAUHTÉMOC,",
+      "address3": "ZIP CODE 06600, MEXICO CITY",
+      "location": "View location"
+    },
+    "copyright": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "refunds": "Refund Policy"
+    }
+  },
+  "customQuote": {
+    "hero": {
+      "badge": "Secure business checkout",
+      "title": "Pay Your Custom Quote",
+      "description": "Add a previously approved quote from our team and continue securely through the payment process."
+    },
+    "left": {
+      "title": "Premium solutions for modern businesses",
+      "description": "Our platform allows you to add custom quotes previously approved with our specialists and continue directly to checkout."
+    },
+    "features": {
+      "security": {
+        "title": "Enterprise security",
+        "description": "Protected and encrypted payments for corporate clients."
+      },
+      "billing": {
+        "title": "Flexible billing",
+        "description": "Process custom quotes and agreed payment amounts."
+      }
+    },
+    "form": {
+      "title": "Add Quote",
+      "description": "Enter the information provided by our team.",
+      "quoteId": "Quote ID",
+      "quotePlaceholder": "Ex. PT-2026-001",
+      "amount": "Agreed amount (without VAT)"
+    },
+    "important": {
+      "label": "Important:",
+      "text": "the entered amount must exclude VAT. Tax calculation will be automatically applied during checkout."
+    },
+    "button": "Add to cart",
+    "secure": "Secure and protected payment",
+    "imageAlt": "Business technology",
+    "alerts": {
+      "quoteRequired": "You must enter a quote ID",
+      "invalidAmount": "You must enter a valid amount"
+    },
+    "cart": {
+      "quote": "Quote",
+      "description": "Custom quote agreed externally"
+    }
+  },
+  "securityServicePage": {
+    "hero": {
+      "badge": "Enterprise Security",
+      "title": {
+        "line1": "Cyber",
+        "highlight": "Security"
+      },
+      "description": "We protect your digital infrastructure with modern solutions, intelligent monitoring, and advanced cybersecurity strategies.",
+      "primaryCta": "View Services",
+      "secondaryCta": "View cart",
+      "imageAlt": "Cybersecurity",
+      "overlayTitle": "Protected Infrastructure",
+      "overlayDescription": "Solutions designed for modern businesses that require security, stability, and immediate response."
+    },
+    "stats": {
+      "monitoring": "Continuous monitoring",
+      "protection": "Active protection",
+      "tier": "Elite",
+      "premiumSecurity": "Premium security"
+    },
+    "featuresSection": {
+      "badge": "Advanced protection",
+      "title": {
+        "line1": "Security technology",
+        "highlight": "for the new generation"
+      },
+      "description": "We design technology strategies to protect information, servers, and critical operations."
+    },
+    "features": {
+      "proactive": {
+        "title": "Proactive Protection",
+        "description": "We detect and neutralize threats before they affect your business"
+      },
+      "encryption": {
+        "title": "Data Encryption",
+        "description": "We protect your sensitive information with the highest encryption standards"
+      },
+      "monitoring": {
+        "title": "Continuous Monitoring",
+        "description": "24/7 surveillance of your infrastructure to detect suspicious activity"
+      }
+    },
+    "plansSection": {
+      "badge": "Available services",
+      "title": "Security solutions",
+      "description": "Choose the ideal level of protection for your technology operations.",
+      "recommended": "Recommended",
+      "addToCart": "Add to cart"
+    },
+    "plans": {
+      "mcafee": {
+        "name": "McAfee Total Protection",
+        "description": "A complete digital security suite to protect devices and personal data.",
+        "features": [
+          "Protection against viruses, malware, ransomware, and spyware",
+          "Privacy tools included",
+          "Secure password management",
+          "Compatible with Windows, macOS, Android, and iOS",
+          "Coverage for one device"
+        ]
+      },
+      "kaspersky": {
+        "name": "Kaspersky Standard",
+        "description": "Essential protection against digital threats for Windows computers.",
+        "features": [
+          "Protection against viruses and malware",
+          "Built-in firewall",
+          "Personal data protection",
+          "Compatible with Windows",
+          "Coverage for one device"
+        ]
+      },
+      "bitdefender": {
+        "name": "Bitdefender Total Security",
+        "description": "Advanced protection and optimized performance for multiple platforms.",
+        "features": [
+          "Protection against viruses, ransomware, and spyware",
+          "Advanced real-time security",
+          "System performance optimization",
+          "Compatible with Windows, macOS, Android, and iOS",
+          "Coverage for one device"
+        ]
+      },
+      "norton": {
+        "name": "Norton AntiVirus Plus",
+        "description": "Comprehensive protection with cloud backup and advanced security tools.",
+        "features": [
+          "Protection against viruses, malware, and ransomware",
+          "Smart firewall included",
+          "Integrated password manager",
+          "Cloud backup",
+          "Compatible with Windows, macOS, Android, and iOS"
+        ]
+      },
+      "totalav": {
+        "name": "TotalAV Antivirus",
+        "description": "Real-time protection with extra privacy and optimization tools.",
+        "features": [
+          "Real-time threat protection",
+          "Included VPN",
+          "Browser cleaner",
+          "Password manager",
+          "Compatible with Windows, macOS, Android, and iOS"
+        ]
+      }
+    }
+  },
+  "supportMaintenancePage": {
+    "hero": {
+      "badge": "SERVICE 01",
+      "title": {
+        "line1": "Support and",
+        "highlight": "Maintenance",
+        "line2": "of Software"
+      },
+      "description": "Keep your technology infrastructure running in a stable, secure, and efficient way with specialized support and professional technical assistance.",
+      "primaryCta": "View Services",
+      "secondaryCta": "View Cart",
+      "imageAlt": "Support and maintenance"
+    },
+    "featuresSection": {
+      "badge": "BENEFITS",
+      "title": "Modern technical support",
+      "description": "Specialized services to keep your systems operating without interruptions and with the best possible performance."
+    },
+    "features": {
+      "remoteSupport": {
+        "title": "Remote Support",
+        "desc": "Immediate assistance to resolve technical incidents and operational problems."
+      },
+      "updates": {
+        "title": "Updates",
+        "desc": "Preventive maintenance, security improvements, and system updates."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "desc": "Configuration and performance improvement of software and business equipment."
+      }
+    },
+    "plansSection": {
+      "badge": "AVAILABLE PLANS",
+      "title": "Choose your service",
+      "description": "Solutions designed for companies, offices, and users who require professional support.",
+      "mostRequested": "MOST REQUESTED",
+      "addToCart": "Add to cart"
+    },
+    "plans": {
+      "installationBasic": {
+        "name": "Installation or Update of Basic Program",
+        "description": "Installation or configuration of basic software for home computers.",
+        "features": [
+          "Browser, antivirus, or basic Office installation",
+          "Initial software configuration",
+          "Compatibility with home equipment",
+          "Remote or in-person support",
+          "Assistance for individual users"
+        ]
+      },
+      "corporateSoftware": {
+        "name": "Install/Configure Corporate Software",
+        "description": "Corporate software setup for small offices and work teams.",
+        "features": [
+          "Configuration for up to 2 users",
+          "Business software installation",
+          "Initial network configuration",
+          "Basic integration support",
+          "Licenses and advanced configurations at an additional cost"
+        ]
+      },
+      "osUpdate": {
+        "name": "Operating System Update",
+        "description": "Complete migration to modern versions of operating system or software.",
+        "features": [
+          "Windows 10 → 11 upgrade",
+          "Office 2016 → 2021 migration",
+          "Pre-update configuration backup",
+          "Post-update optimization",
+          "Additional configuration included"
+        ]
+      },
+      "officeSimpleIssue": {
+        "name": "Simple Office Application Issue",
+        "description": "Resolution of problems in basic office applications.",
+        "features": [
+          "Correction of a single application",
+          "Support for individual users",
+          "Quick diagnosis",
+          "Basic setup and repair",
+          "Remote support available"
+        ]
+      },
+      "complexProductiveIssue": {
+        "name": "Complex Productive Application Issue",
+        "description": "Diagnosis and solution of business applications with multiple modules and integrations.",
+        "features": [
+          "Support for 2–4 modules",
+          "Integration fixes",
+          "Performance diagnosis",
+          "Resolution of system conflicts",
+          "Support for multiple users"
+        ]
+      },
+      "severeProblem": {
+        "name": "Severe Problem",
+        "description": "Attention to critical incidents related to servers, outages, or data loss.",
+        "features": [
+          "Recovery from critical outages",
+          "Incompatibility diagnosis",
+          "Data loss analysis",
+          "Priority support",
+          "Intervention in business servers"
+        ]
+      },
+      "basicOptimization": {
+        "name": "Basic Optimization",
+        "description": "Performance improvement for personal computers or home laptops.",
+        "features": [
+          "Operating system optimization",
+          "Removal of unnecessary processes",
+          "General speed improvement",
+          "Optimization for individual users",
+          "Basic security review"
+        ]
+      },
+      "officeOptimization": {
+        "name": "Office Computer Optimization",
+        "description": "Optimization of office equipment with corporate software and multiple configurations.",
+        "features": [
+          "Optimization for 1–2 devices",
+          "Software conflict fixes",
+          "Business performance improvement",
+          "Work tools configuration",
+          "Support for office environments"
+        ]
+      },
+      "mediumServerOptimization": {
+        "name": "Small / Medium Server Optimization",
+        "description": "Performance optimization for servers and critical systems.",
+        "features": [
+          "Database optimization",
+          "Cache and performance tuning",
+          "Advanced server configuration",
+          "Stability improvements",
+          "Critical resource analysis"
+        ]
+      },
+      "enterpriseServerOptimization": {
+        "name": "Enterprise Server Optimization",
+        "description": "Deep optimization for high-demand enterprise environments.",
+        "features": [
+          "Advanced database optimization",
+          "Network and storage tuning",
+          "High-demand analysis",
+          "Multi-application optimization",
+          "Comprehensive infrastructure improvement"
+        ]
+      }
+    }
+  },
+  "remoteSupportPage": {
+    "hero": {
+      "title": "Remote Support",
+      "titleHighlight": "and On-Site",
+      "description": "Fast and efficient technical solutions for servers, software, hardware, and enterprise platforms.",
+      "viewServices": "View Services",
+      "viewCart": "View Cart",
+      "imageAlt": "Remote support"
+    },
+
+    "benefits": {
+      "badge": "SPECIALIZED SUPPORT",
+      "title": "Fast and professional assistance",
+      "description": "Technical services designed to resolve critical incidents and keep your operations running smoothly.",
+
+      "items": {
+        "instantSupport": {
+          "title": "Instant Remote Support",
+          "description": "We solve problems in minutes without waiting for on-site visits"
+        },
+
+        "onsiteVisits": {
+          "title": "On-Site Visits",
+          "description": "When needed, our engineers visit your location"
+        },
+
+        "extendedAvailability": {
+          "title": "Extended Availability",
+          "description": "Flexible schedules adapted to your operations"
+        }
+      }
+    },
+
+    "quantity": {
+      "hoursRequired": "Required hours"
+    },
+
+    "plans": {
+      "badge": "AVAILABLE SERVICES",
+      "title": "Choose your technical support",
+      "description": "Hire remote support, server administration, or specialized hourly assistance.",
+      "mostRequested": "MOST REQUESTED",
+      "perHour": "MXN/hour",
+      "estimatedTotal": "Estimated total",
+      "hours": "hours",
+      "addHoursToCart": "Add {hours}h to cart",
+
+      "items": {
+        "analisis-desarrollo-web": {
+          "name": "Web Analysis and Development",
+          "description": "Remote configuration, cPanel support, and CentOS server administration.",
+          "features": [
+            "Web development and analysis",
+            "Specialized remote configuration",
+            "cPanel support",
+            "CentOS server administration",
+            "Diagnostics and optimization",
+            "Hourly assistance"
+          ]
+        },
+
+        "soporte-servidores-linux-windows": {
+          "name": "Linux and Windows Server Support",
+          "description": "Remote technical support for server administration and maintenance.",
+          "features": [
+            "Linux server administration",
+            "Windows server support",
+            "Failure diagnostics",
+            "Basic and advanced configuration",
+            "Monitoring and maintenance",
+            "Hourly assistance"
+          ]
+        },
+
+        "soporte-teamviewer": {
+          "name": "Remote Support via TeamViewer",
+          "description": "Remote phone or virtual technical assistance using TeamViewer.",
+          "features": [
+            "Secure remote connection",
+            "Phone support",
+            "Immediate virtual assistance",
+            "Quick incident resolution",
+            "Compatible with multiple devices",
+            "Hourly assistance"
+          ]
+        },
+
+        "soporte-software-hardware": {
+          "name": "Remote Software and Hardware Support",
+          "description": "Diagnosis and resolution of software and hardware related issues.",
+          "features": [
+            "Hardware diagnostics",
+            "Software troubleshooting",
+            "Specialized remote assistance",
+            "Performance optimization",
+            "Device configuration",
+            "Hourly assistance"
+          ]
+        },
+
+        "conexion-remota": {
+          "name": "Technical Support via Remote Connection",
+          "description": "Remote support through secure connections to resolve technical issues.",
+          "features": [
+            "Secure remote access",
+            "Fast problem resolution",
+            "Configuration and maintenance",
+            "Windows and Linux compatibility",
+            "Personalized assistance",
+            "Hourly assistance"
+          ]
+        },
+
+        "soporte-247": {
+          "name": "24/7 Phone and Remote Support",
+          "description": "Continuous remote and phone support service available 24/7.",
+          "features": [
+            "24/7 availability",
+            "Continuous remote support",
+            "Immediate phone assistance",
+            "Critical incident resolution",
+            "Support for users and businesses",
+            "Hourly assistance"
+          ]
+        }
+      }
+    }
+  },
+  "ContactModal": {
+    "title": "Contact",
+    "submitText": "Send message",
+    "openButton": "Contact us",
+    "closeModal": "Close modal",
+    "sending": "Sending...",
+    "cancel": "Cancel",
+    "topBar": {
+      "label": "Contact form",
+      "subtitle": "Only fill in the fields you need."
+    },
+    "left": {
+      "title": "Let’s talk about your project",
+      "description": "Fill in your details and we will contact you with a clear and professional proposal.",
+      "email": "gestion@softvora.com",
+      "phone": "55 5533 2511",
+      "support": "Personalized support and follow-up"
+    },
+    "fields": {
+      "nombre": {
+        "label": "First name",
+        "placeholder": "Your first name"
+      },
+      "apellidos": {
+        "label": "Last name",
+        "placeholder": "Your last name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@email.com"
+      },
+      "telefono": {
+        "label": "Phone",
+        "placeholder": "+52 ..."
+      },
+      "asunto": {
+        "label": "Subject",
+        "placeholder": "Quote / support / information"
+      },
+      "servicioDeseado": {
+        "label": "Desired service",
+        "placeholder": "Describe the service you need"
+      },
+      "presupuesto": {
+        "label": "Budget",
+        "placeholder": "Ex. $1,000 - $2,000"
+      },
+      "mensaje": {
+        "label": "Message",
+        "placeholder": "Tell us what you need"
+      }
+    }
+  },
+   "SoporteQuoteCard": {
+    "badge": "Premium Support",
+    "title": {
+      "line1": "Request quotes for",
+      "line2": "technology support services"
+    },
+    "description": "Our team can help you with remote support, maintenance, cybersecurity, and specialized technical assistance.",
+    "features": {
+      "specialized": {
+        "title": "Specialized assistance",
+        "description": "Remote and enterprise technical support."
+      },
+      "fast": {
+        "title": "Fast response",
+        "description": "Average response time under 24 hours."
+      }
+    },
+    "card": {
+      "title": "Request a quote",
+      "description": "Complete the form and a specialist will contact you."
+    },
+    "button": {
+      "text": "Request Quote",
+      "modalTitle": "Request Service Quote",
+      "submitText": "Send Request"
+    }
+  }
+}
