@@ -76,62 +76,7 @@ export default function HeroSection() {
 
           {/* CTA */}
           <div className="mt-10 flex flex-wrap gap-4">
-            <ContactButton
-              buttonText={t("contact.buttonText")}
-              title={t("contact.title")}
-              submitText={t("contact.submitText")}
-              fields={[
-                "nombre",
-                "apellidos",
-                "email",
-                "asunto",
-                "servicioDeseado",
-              ]}
-              className="
-                rounded-2xl
-                bg-gradient-to-r
-                from-yellow-500
-                via-orange-400
-                to-yellow-600
-                px-7
-                py-4
-                text-sm
-                font-semibold
-                text-white
-                shadow-xl
-                shadow-yellow-500/20
-                transition-all
-                duration-300
-                hover:scale-[1.02]
-                hover:shadow-2xl
-              "
-            />
-
-            <a
-              href="#servicios"
-              className="
-                inline-flex
-                items-center
-                gap-2
-                rounded-2xl
-                border
-                border-yellow-200
-                bg-white/90
-                px-6
-                py-4
-                text-sm
-                font-semibold
-                text-zinc-800
-                shadow-sm
-                transition-all
-                hover:border-yellow-400
-                hover:bg-yellow-50
-              "
-            >
-              {t("viewServices")}
-
-              <ArrowRight className="h-4 w-4" />
-            </a>
+            
           </div>
         </div>
 

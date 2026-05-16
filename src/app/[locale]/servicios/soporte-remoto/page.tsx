@@ -23,7 +23,7 @@ const plans = [
   {
     id: "analisis-desarrollo-web",
     price: 600,
-    popular: true,
+    popular: false,
   },
 
   {
@@ -260,9 +260,9 @@ export default function SoporteRemotoPage() {
                       {t(`plans.items.${plan.id}.name`)}
                     </h3>
 
-                    <p className="mt-2 text-sm leading-relaxed text-zinc-500">
+                    {/* <p className="mt-2 text-sm leading-relaxed text-zinc-500">
                       {t(`plans.items.${plan.id}.description`)}
-                    </p>
+                    </p> */}
                   </div>
 
                   <div className="mb-7">
@@ -275,26 +275,7 @@ export default function SoporteRemotoPage() {
                     </span>
                   </div>
 
-                  <ul className="mb-8 space-y-4">
-                    {(
-                      t.raw(
-                        `plans.items.${plan.id}.features`
-                      ) as string[]
-                    ).map((feature: string) => (
-                      <li
-                        key={feature}
-                        className="flex items-start gap-3"
-                      >
-                        <div className="mt-0.5 rounded-full bg-yellow-100 p-1 text-yellow-700">
-                          <Check className="h-4 w-4" />
-                        </div>
 
-                        <span className="text-sm leading-relaxed text-zinc-700">
-                          {feature}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
 
                   <div className="mb-6">
                     <QuantitySelector
@@ -315,7 +296,7 @@ export default function SoporteRemotoPage() {
                         </span>
 
                         <span className="text-2xl font-black text-yellow-700">
-                          ${total.toLocaleString("es-MX")}
+                          ${total.toLocaleString("es-MX")}  {t("taxes")}
                         </span>
                       </div>
                     </div>

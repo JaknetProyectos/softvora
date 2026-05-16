@@ -343,22 +343,11 @@ export default function SoporteMantenimientoPage() {
                     ${plan.price.toLocaleString(numberLocale)}
                   </span>
 
-                  <span className="ml-2 text-zinc-500">MXN</span>
+                  
+
+                  <span className="ml-2 text-zinc-500">MXN    {t("taxes")}</span>
                 </div>
 
-                <ul className="mb-8 space-y-4">
-                  {plan.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
-                      <div className="mt-0.5 rounded-full bg-yellow-100 p-1 text-yellow-700">
-                        <Check className="h-4 w-4" />
-                      </div>
-
-                      <span className="text-sm leading-relaxed text-zinc-700">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
 
                 <button
                   type="button"

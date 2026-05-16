@@ -114,9 +114,6 @@ export default function WhyChooseUsSection() {
                     <reason.icon className="h-6 w-6" />
                   </div>
 
-                  <span className="text-sm font-bold tracking-[0.3em] text-yellow-300/70">
-                    {reason.number}
-                  </span>
                 </div>
 
                 <h3 className="font-inter-tight text-2xl font-bold text-white">
@@ -127,11 +124,6 @@ export default function WhyChooseUsSection() {
                   {reason.description}
                 </p>
 
-                <div className="mt-6 flex items-center gap-2 text-sm font-medium text-yellow-300">
-                  <span>{t("moreTrust")}</span>
-
-                  <ChevronRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </div>
               </div>
             </div>
           ))}

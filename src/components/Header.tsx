@@ -19,15 +19,11 @@ import {
 } from "lucide-react";
 
 import { useCart } from "@/context/CartContext";
+import { useLocaleContext } from "@/context/LangContext";
 
 export default function Header() {
   const t = useTranslations("Header");
 
-  const locale = useLocale();
-
-  const router = useRouter();
-
-  const pathname = usePathname();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -54,11 +50,8 @@ export default function Header() {
     };
   }, []);
 
-  const handleChangeLanguage = () => {
-    const nextLocale = locale === "es" ? "en" : "es";
 
-    router.replace(pathname, { locale: nextLocale });
-  };
+  const { locale, switchLanguage, isPending } = useLocaleContext();
 
   const services = [
     {
@@ -187,13 +180,16 @@ export default function Header() {
           {/* LANGUAGE */}
           <button
             type="button"
-            onClick={handleChangeLanguage}
+            onClick={()=>{
+              locale === "es" ? switchLanguage("en") : switchLanguage("es")
+              
+            }}
             className="hidden h-12 items-center justify-center gap-2 rounded-2xl border border-yellow-100 bg-white px-4 text-yellow-500 shadow-sm transition hover:border-yellow-200 hover:bg-yellow-50 lg:flex"
           >
             <Globe className="h-5 w-5" />
 
             <span className="text-sm font-semibold uppercase">
-              {locale === "es" ? "EN" : "ES"}
+              {locale === "es" ? "ES" : "EN"}
             </span>
           </button>
 
@@ -232,7 +228,9 @@ export default function Header() {
           <div className="space-y-3 px-4 py-6">
             <button
               type="button"
-              onClick={handleChangeLanguage}
+              onClick={()=>{
+                locale === "es" ? switchLanguage("en") : switchLanguage("es")
+              }}
               className="flex w-full items-center justify-center gap-2 rounded-2xl border border-yellow-100 bg-yellow-50 px-4 py-4 font-semibold text-zinc-800"
             >
               <Globe className="h-5 w-5 text-yellow-500" />

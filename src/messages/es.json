@@ -184,7 +184,7 @@
       }
     }
   },
-   "featuresSection": {
+  "featuresSection": {
     "badge": "Beneficios",
     "title": {
       "line1": "Soluciones diseñadas para",
@@ -211,7 +211,7 @@
       }
     }
   },
-   "servicesSection": {
+  "servicesSection": {
     "badge": "Nuestros Servicios",
     "title": "Soluciones tecnológicas para empresas modernas.",
     "description": "Soporte, seguridad y asistencia especializada para mantener tu infraestructura funcionando al máximo nivel.",
@@ -266,19 +266,17 @@
       }
     }
   },
-   "QuoteSection": {
+  "QuoteSection": {
     "badge": "Softvora",
     "quote": "Aportamos nuestra experiencia y compromiso a cada proyecto para establecer relaciones sólidas y de largo plazo, fundamentadas en la confianza. Estamos contigo en todas las fases del ciclo de vida del proyecto, asegurando calidad y resultados.",
     "footer": "Seguridad • Soporte • Innovación"
   },
-   "Footer": {
+  "Footer": {
     "description": "Soluciones tecnológicas modernas para empresas y profesionales. Infraestructura, soporte, seguridad y servicios premium con atención especializada.",
     "paymentMethods": "Métodos de pago",
-
     "contact": {
       "title": "Contacto"
     },
-
     "services": {
       "title": "Servicios",
       "support": "Soporte y Mantenimiento",
@@ -286,7 +284,6 @@
       "remote": "Soporte Remoto y en Sitio",
       "quote": "Paga tu Cotización"
     },
-
     "office": {
       "title": "Oficina Principal",
       "address1": "CALLE LONDRES 275, INT. A,",
@@ -294,16 +291,14 @@
       "address3": "C.P. 06600, CDMX",
       "location": "Ver ubicación"
     },
-
     "copyright": "Todos los derechos reservados.",
-
     "links": {
       "privacy": "Aviso de Privacidad",
       "terms": "Términos y Condiciones",
       "refunds": "Políticas de Reembolso"
     }
   },
-   "customQuote": {
+  "customQuote": {
     "hero": {
       "badge": "Checkout seguro empresarial",
       "title": "Paga tu Cotización Personalizada",
@@ -346,8 +341,8 @@
       "description": "Cotización personalizada acordada externamente"
     }
   },
-
   "securityServicePage": {
+    "taxes" : "+ IVA",
     "hero": {
       "badge": "Seguridad Empresarial",
       "title": {
@@ -454,159 +449,161 @@
       }
     }
   },
-   "supportMaintenancePage": {
+  "supportMaintenancePage": {
+    "taxes" : "+ IVA",
     "hero": {
       "badge": "SERVICIO 01",
       "title": {
-        "line1": "Support and",
-        "highlight": "Maintenance",
-        "line2": "of Software"
+        "line1": "Soporte y",
+        "highlight": "Mantenimiento",
+        "line2": "de Software"
       },
-      "description": "Keep your technology infrastructure running in a stable, secure, and efficient way with specialized support and professional technical assistance.",
-      "primaryCta": "View Services",
-      "secondaryCta": "View Cart",
-      "imageAlt": "Support and maintenance"
+      "description": "Mantén tu infraestructura tecnológica estable, segura y eficiente con soporte especializado y asistencia técnica profesional.",
+      "primaryCta": "Ver Servicios",
+      "secondaryCta": "Ver Carrito",
+      "imageAlt": "Soporte y mantenimiento"
     },
     "featuresSection": {
-      "badge": "BENEFITS",
-      "title": "Modern technical support",
-      "description": "Specialized services to keep your systems operating without interruptions and with the best possible performance."
+      "badge": "BENEFICIOS",
+      "title": "Soporte técnico moderno",
+      "description": "Servicios especializados para mantener tus sistemas funcionando sin interrupciones y con el mejor rendimiento posible."
     },
     "features": {
       "remoteSupport": {
-        "title": "Remote Support",
-        "desc": "Immediate assistance to resolve technical incidents and operational problems."
+        "title": "Soporte Remoto",
+        "desc": "Asistencia inmediata para resolver incidentes técnicos y problemas operativos."
       },
       "updates": {
-        "title": "Updates",
-        "desc": "Preventive maintenance, security improvements, and system updates."
+        "title": "Actualizaciones",
+        "desc": "Mantenimiento preventivo, mejoras de seguridad y actualizaciones del sistema."
       },
       "optimization": {
-        "title": "Optimization",
-        "desc": "Configuration and performance improvement of software and business equipment."
+        "title": "Optimización",
+        "desc": "Configuración y mejora del rendimiento de software y equipos empresariales."
       }
     },
     "plansSection": {
-      "badge": "AVAILABLE PLANS",
-      "title": "Choose your service",
-      "description": "Solutions designed for companies, offices, and users who require professional support.",
-      "mostRequested": "MOST REQUESTED",
-      "addToCart": "Add to cart"
+      "badge": "PLANES DISPONIBLES",
+      "title": "Elige tu servicio",
+      "description": "Soluciones diseñadas para empresas, oficinas y usuarios que requieren soporte profesional.",
+      "mostRequested": "MÁS SOLICITADO",
+      "addToCart": "Agregar al carrito"
     },
     "plans": {
       "installationBasic": {
-        "name": "Installation or Update of Basic Program",
-        "description": "Installation or configuration of basic software for home computers.",
+        "name": "Instalación o Actualización de Programa Básico",
+        "description": "Instalación o configuración de software básico para computadoras domésticas.",
         "features": [
-          "Browser, antivirus, or basic Office installation",
-          "Initial software configuration",
-          "Compatibility with home equipment",
-          "Remote or in-person support",
-          "Assistance for individual users"
+          "Instalación de navegador, antivirus u Office básico",
+          "Configuración inicial del software",
+          "Compatibilidad con equipos domésticos",
+          "Soporte remoto o presencial",
+          "Asistencia para usuarios individuales"
         ]
       },
       "corporateSoftware": {
-        "name": "Install/Configure Corporate Software",
-        "description": "Corporate software setup for small offices and work teams.",
+        "name": "Instalación / Configuración de Software Corporativo",
+        "description": "Configuración de software corporativo para pequeñas oficinas y equipos de trabajo.",
         "features": [
-          "Configuration for up to 2 users",
-          "Business software installation",
-          "Initial network configuration",
-          "Basic integration support",
-          "Licenses and advanced configurations at an additional cost"
+          "Configuración para hasta 2 usuarios",
+          "Instalación de software empresarial",
+          "Configuración inicial de red",
+          "Soporte básico de integración",
+          "Licencias y configuraciones avanzadas con costo adicional"
         ]
       },
       "osUpdate": {
-        "name": "Operating System Update",
-        "description": "Complete migration to modern versions of operating system or software.",
+        "name": "Actualización de Sistema Operativo",
+        "description": "Migración completa a versiones modernas de sistema operativo o software.",
         "features": [
-          "Windows 10 → 11 upgrade",
-          "Office 2016 → 2021 migration",
-          "Pre-update configuration backup",
-          "Post-update optimization",
-          "Additional configuration included"
+          "Actualización de Windows 10 → 11",
+          "Migración de Office 2016 → 2021",
+          "Respaldo previo a la actualización",
+          "Optimización posterior a la actualización",
+          "Configuración adicional incluida"
         ]
       },
       "officeSimpleIssue": {
-        "name": "Simple Office Application Issue",
-        "description": "Resolution of problems in basic office applications.",
+        "name": "Problema Simple en Aplicación de Oficina",
+        "description": "Resolución de problemas en aplicaciones básicas de oficina.",
         "features": [
-          "Correction of a single application",
-          "Support for individual users",
-          "Quick diagnosis",
-          "Basic setup and repair",
-          "Remote support available"
+          "Corrección de una sola aplicación",
+          "Soporte para usuarios individuales",
+          "Diagnóstico rápido",
+          "Configuración y reparación básica",
+          "Soporte remoto disponible"
         ]
       },
       "complexProductiveIssue": {
-        "name": "Complex Productive Application Issue",
-        "description": "Diagnosis and solution of business applications with multiple modules and integrations.",
+        "name": "Problema Complejo en Aplicación Empresarial",
+        "description": "Diagnóstico y solución de aplicaciones empresariales con múltiples módulos e integraciones.",
         "features": [
-          "Support for 2–4 modules",
-          "Integration fixes",
-          "Performance diagnosis",
-          "Resolution of system conflicts",
-          "Support for multiple users"
+          "Soporte para 2–4 módulos",
+          "Corrección de integraciones",
+          "Diagnóstico de rendimiento",
+          "Resolución de conflictos del sistema",
+          "Soporte para múltiples usuarios"
         ]
       },
       "severeProblem": {
-        "name": "Severe Problem",
-        "description": "Attention to critical incidents related to servers, outages, or data loss.",
+        "name": "Problema Crítico",
+        "description": "Atención a incidentes críticos relacionados con servidores, caídas o pérdida de datos.",
         "features": [
-          "Recovery from critical outages",
-          "Incompatibility diagnosis",
-          "Data loss analysis",
-          "Priority support",
-          "Intervention in business servers"
+          "Recuperación ante caídas críticas",
+          "Diagnóstico de incompatibilidades",
+          "Análisis de pérdida de datos",
+          "Soporte prioritario",
+          "Intervención en servidores empresariales"
         ]
       },
       "basicOptimization": {
-        "name": "Basic Optimization",
-        "description": "Performance improvement for personal computers or home laptops.",
+        "name": "Optimización Básica",
+        "description": "Mejora de rendimiento para computadoras personales o laptops domésticas.",
         "features": [
-          "Operating system optimization",
-          "Removal of unnecessary processes",
-          "General speed improvement",
-          "Optimization for individual users",
-          "Basic security review"
+          "Optimización del sistema operativo",
+          "Eliminación de procesos innecesarios",
+          "Mejora general de velocidad",
+          "Optimización para usuarios individuales",
+          "Revisión básica de seguridad"
         ]
       },
       "officeOptimization": {
-        "name": "Office Computer Optimization",
-        "description": "Optimization of office equipment with corporate software and multiple configurations.",
+        "name": "Optimización de Equipos de Oficina",
+        "description": "Optimización de equipos de oficina con software corporativo y múltiples configuraciones.",
         "features": [
-          "Optimization for 1–2 devices",
-          "Software conflict fixes",
-          "Business performance improvement",
-          "Work tools configuration",
-          "Support for office environments"
+          "Optimización para 1–2 dispositivos",
+          "Corrección de conflictos de software",
+          "Mejora del rendimiento empresarial",
+          "Configuración de herramientas de trabajo",
+          "Soporte para entornos de oficina"
         ]
       },
       "mediumServerOptimization": {
-        "name": "Small / Medium Server Optimization",
-        "description": "Performance optimization for servers and critical systems.",
+        "name": "Optimización de Servidor Pequeño / Mediano",
+        "description": "Optimización de rendimiento para servidores y sistemas críticos.",
         "features": [
-          "Database optimization",
-          "Cache and performance tuning",
-          "Advanced server configuration",
-          "Stability improvements",
-          "Critical resource analysis"
+          "Optimización de bases de datos",
+          "Ajuste de caché y rendimiento",
+          "Configuración avanzada de servidores",
+          "Mejoras de estabilidad",
+          "Análisis de recursos críticos"
         ]
       },
       "enterpriseServerOptimization": {
-        "name": "Enterprise Server Optimization",
-        "description": "Deep optimization for high-demand enterprise environments.",
+        "name": "Optimización de Servidor Empresarial",
+        "description": "Optimización profunda para entornos empresariales de alta demanda.",
         "features": [
-          "Advanced database optimization",
-          "Network and storage tuning",
-          "High-demand analysis",
-          "Multi-application optimization",
-          "Comprehensive infrastructure improvement"
+          "Optimización avanzada de bases de datos",
+          "Ajuste de red y almacenamiento",
+          "Análisis de alta demanda",
+          "Optimización multiaplicación",
+          "Mejora integral de infraestructura"
         ]
       }
     }
   },
   "remoteSupportPage": {
+    "taxes" : "+ IVA",
     "hero": {
       "title": "Soporte Remoto",
       "titleHighlight": "y en Sitio",
@@ -615,34 +612,28 @@
       "viewCart": "Ver Carrito",
       "imageAlt": "Soporte remoto"
     },
-
     "benefits": {
       "badge": "SOPORTE ESPECIALIZADO",
       "title": "Atención rápida y profesional",
       "description": "Servicios técnicos diseñados para resolver incidencias críticas y mantener tu operación funcionando.",
-
       "items": {
         "instantSupport": {
           "title": "Soporte Remoto Instantáneo",
           "description": "Resolvemos problemas en minutos sin necesidad de esperar visitas"
         },
-
         "onsiteVisits": {
           "title": "Visitas en Sitio",
           "description": "Cuando es necesario, nuestros ingenieros van a tu ubicación"
         },
-
         "extendedAvailability": {
           "title": "Disponibilidad Extendida",
           "description": "Horarios flexibles que se adaptan a tu operación"
         }
       }
     },
-
     "quantity": {
       "hoursRequired": "Horas requeridas"
     },
-
     "plans": {
       "badge": "SERVICIOS DISPONIBLES",
       "title": "Elige tu soporte técnico",
@@ -652,7 +643,6 @@
       "estimatedTotal": "Total estimado",
       "hours": "horas",
       "addHoursToCart": "Agregar {hours}h al carrito",
-
       "items": {
         "analisis-desarrollo-web": {
           "name": "Análisis y Desarrollo Web",
@@ -666,7 +656,6 @@
             "Atención por hora"
           ]
         },
-
         "soporte-servidores-linux-windows": {
           "name": "Soporte para Servidores Linux y Windows",
           "description": "Soporte técnico remoto para administración y mantenimiento de servidores.",
@@ -679,7 +668,6 @@
             "Atención por hora"
           ]
         },
-
         "soporte-teamviewer": {
           "name": "Soporte Remoto vía TeamViewer",
           "description": "Asistencia técnica remota telefónica o virtual mediante TeamViewer.",
@@ -692,7 +680,6 @@
             "Atención por hora"
           ]
         },
-
         "soporte-software-hardware": {
           "name": "Soporte Remoto de Software y Hardware",
           "description": "Diagnóstico y solución de problemas relacionados con software y hardware.",
@@ -705,7 +692,6 @@
             "Atención por hora"
           ]
         },
-
         "conexion-remota": {
           "name": "Soporte Técnico por Conexión Remota",
           "description": "Soporte remoto mediante conexión segura para resolver incidencias técnicas.",
@@ -718,7 +704,6 @@
             "Atención por hora"
           ]
         },
-
         "soporte-247": {
           "name": "Soporte Telefónico y Remoto 24/7",
           "description": "Servicio continuo de soporte remoto y telefónico disponible las 24 horas.",

@@ -339,7 +339,7 @@ export default function SeguridadInformaticaPage() {
                     ${plan.price.toLocaleString(numberLocale)}
                   </span>
 
-                  <span className="ml-2 text-gray-500">MXN</span>
+                  <span className="ml-2 text-zinc-500">MXN    {t("taxes")}</span>
                 </div>
 
                 <ul className="mb-10 space-y-4">

@@ -342,6 +342,7 @@
     }
   },
   "securityServicePage": {
+    "taxes" : "+ VAT",
     "hero": {
       "badge": "Enterprise Security",
       "title": {
@@ -449,6 +450,7 @@
     }
   },
   "supportMaintenancePage": {
+    "taxes" : "+ VAT",
     "hero": {
       "badge": "SERVICE 01",
       "title": {
@@ -601,6 +603,7 @@
     }
   },
   "remoteSupportPage": {
+    "taxes" : "+ VAT",
     "hero": {
       "title": "Remote Support",
       "titleHighlight": "and On-Site",
