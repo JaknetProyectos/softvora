@@ -186,21 +186,21 @@ export default function Footer() {
 
           <div className="flex flex-wrap items-center gap-5 text-sm">
             <Link
-              href="#"
+              href="/legal/privacidad"
               className="text-zinc-500 transition hover:text-yellow-600"
             >
               {t("links.privacy")}
             </Link>
 
             <Link
-              href="#"
+              href="/legal/terminos"
               className="text-zinc-500 transition hover:text-yellow-600"
             >
               {t("links.terms")}
             </Link>
 
             <Link
-              href="#"
+              href="/legal/reembolsos"
               className="text-zinc-500 transition hover:text-yellow-600"
             >
               {t("links.refunds")}

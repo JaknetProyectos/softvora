@@ -23,14 +23,9 @@ import { useLocaleContext } from "@/context/LangContext";
 
 export default function Header() {
   const t = useTranslations("Header");
-
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const [isServicesOpen, setIsServicesOpen] = useState(false);
-
   const servicesRef = useRef<HTMLDivElement | null>(null);
-
   const { totalItems } = useCart();
 
   useEffect(() => {
@@ -184,6 +179,7 @@ export default function Header() {
               locale === "es" ? switchLanguage("en") : switchLanguage("es")
               
             }}
+            disabled={isPending}
             className="hidden h-12 items-center justify-center gap-2 rounded-2xl border border-yellow-100 bg-white px-4 text-yellow-500 shadow-sm transition hover:border-yellow-200 hover:bg-yellow-50 lg:flex"
           >
             <Globe className="h-5 w-5" />
@@ -231,6 +227,7 @@ export default function Header() {
               onClick={()=>{
                 locale === "es" ? switchLanguage("en") : switchLanguage("es")
               }}
+              disabled={isPending}
               className="flex w-full items-center justify-center gap-2 rounded-2xl border border-yellow-100 bg-yellow-50 px-4 py-4 font-semibold text-zinc-800"
             >
               <Globe className="h-5 w-5 text-yellow-500" />
