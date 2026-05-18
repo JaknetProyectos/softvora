@@ -40,122 +40,6 @@
       "title": "Enterprise Technology"
     }
   },
-  "CheckoutPage": {
-    "empty": {
-      "title": "Your cart is empty",
-      "description": "Add services to the cart before proceeding to checkout.",
-      "cta": "Explore services"
-    },
-    "hero": {
-      "badge": "Secure checkout",
-      "title": "Complete your purchase",
-      "description": "Review your cart, fill in your details, and make the payment with a clean, elegant design focused on conversion."
-    },
-    "form": {
-      "paymentSectionTitle": "Payment details",
-      "orderPrefix": "Order:",
-      "fields": {
-        "firstName": {
-          "label": "First name",
-          "placeholder": "John"
-        },
-        "lastName": {
-          "label": "Last name",
-          "placeholder": "Doe"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "email@domain.com"
-        },
-        "telefono": {
-          "label": "Phone",
-          "placeholder": "555 000 0000"
-        },
-        "city": {
-          "label": "City",
-          "placeholder": "Mexico City"
-        },
-        "direccion": {
-          "label": "Address",
-          "placeholder": "Street, number, neighborhood"
-        },
-        "state": {
-          "label": "State",
-          "placeholder": "CDMX"
-        },
-        "cp": {
-          "label": "ZIP code",
-          "placeholder": "01000"
-        },
-        "country": {
-          "label": "Country",
-          "placeholder": "MX"
-        },
-        "cardNumber": {
-          "label": "Card number",
-          "placeholder": "0000 0000 0000 0000"
-        },
-        "cardName": {
-          "label": "Name on card",
-          "placeholder": "JOHN DOE"
-        },
-        "month": {
-          "label": "Month",
-          "placeholder": "Month"
-        },
-        "year": {
-          "label": "Year",
-          "placeholder": "Year"
-        },
-        "cvv": {
-          "label": "CVV",
-          "placeholder": "123"
-        }
-      },
-      "cardSectionTitle": "Card details"
-    },
-    "buttons": {
-      "processing": "Processing payment...",
-      "payNow": "Pay now"
-    },
-    "summary": {
-      "title": "Summary",
-      "itemsCount": "{count, plural, one {# product} other {# products}}",
-      "empty": "Your cart is empty.",
-      "quantityPrefix": "x",
-      "subtotal": "Subtotal",
-      "tax": "VAT (16%)",
-      "total": "Total"
-    },
-    "security": {
-      "title": "Secure payment",
-      "description": "The charge is processed with Etomin using authentication, card tokenization, and direct server-side sales.",
-      "protected": "Data protected in transit"
-    },
-    "logos": {
-      "cardsAlt": "Accepted cards",
-      "etominAlt": "Etomin payment gateway"
-    },
-    "success": "Payment processed successfully. Your order was registered successfully.",
-    "errors": {
-      "emptyCart": "Your cart is empty.",
-      "firstName": "First name is required.",
-      "lastName": "Last name is required.",
-      "email": "Email is required.",
-      "telefono": "Phone is required.",
-      "city": "City is required.",
-      "direccion": "Address is required.",
-      "state": "State is required.",
-      "cp": "ZIP code is required.",
-      "country": "Country is required.",
-      "cardNumber": "Card number is required.",
-      "cardName": "Name on card is required.",
-      "month": "Expiration month is required.",
-      "year": "Expiration year is required.",
-      "cvv": "CVV is required.",
-      "paymentFailed": "Error processing payment"
-    }
-  },
   "aboutSection": {
     "imageAlt": "Technology team",
     "floatingCard": {
@@ -342,7 +226,7 @@
     }
   },
   "securityServicePage": {
-    "taxes" : "+ VAT",
+    "taxes": "+ VAT",
     "hero": {
       "badge": "Enterprise Security",
       "title": {
@@ -450,7 +334,7 @@
     }
   },
   "supportMaintenancePage": {
-    "taxes" : "+ VAT",
+    "taxes": "+ VAT",
     "hero": {
       "badge": "SERVICE 01",
       "title": {
@@ -603,7 +487,7 @@
     }
   },
   "remoteSupportPage": {
-    "taxes" : "+ VAT",
+    "taxes": "+ VAT",
     "hero": {
       "title": "Remote Support",
       "titleHighlight": "and On-Site",
@@ -612,34 +496,28 @@
       "viewCart": "View Cart",
       "imageAlt": "Remote support"
     },
-
     "benefits": {
       "badge": "SPECIALIZED SUPPORT",
       "title": "Fast and professional assistance",
       "description": "Technical services designed to resolve critical incidents and keep your operations running smoothly.",
-
       "items": {
         "instantSupport": {
           "title": "Instant Remote Support",
           "description": "We solve problems in minutes without waiting for on-site visits"
         },
-
         "onsiteVisits": {
           "title": "On-Site Visits",
           "description": "When needed, our engineers visit your location"
         },
-
         "extendedAvailability": {
           "title": "Extended Availability",
           "description": "Flexible schedules adapted to your operations"
         }
       }
     },
-
     "quantity": {
       "hoursRequired": "Required hours"
     },
-
     "plans": {
       "badge": "AVAILABLE SERVICES",
       "title": "Choose your technical support",
@@ -649,7 +527,6 @@
       "estimatedTotal": "Estimated total",
       "hours": "hours",
       "addHoursToCart": "Add {hours}h to cart",
-
       "items": {
         "analisis-desarrollo-web": {
           "name": "Web Analysis and Development",
@@ -663,7 +540,6 @@
             "Hourly assistance"
           ]
         },
-
         "soporte-servidores-linux-windows": {
           "name": "Linux and Windows Server Support",
           "description": "Remote technical support for server administration and maintenance.",
@@ -676,7 +552,6 @@
             "Hourly assistance"
           ]
         },
-
         "soporte-teamviewer": {
           "name": "Remote Support via TeamViewer",
           "description": "Remote phone or virtual technical assistance using TeamViewer.",
@@ -689,7 +564,6 @@
             "Hourly assistance"
           ]
         },
-
         "soporte-software-hardware": {
           "name": "Remote Software and Hardware Support",
           "description": "Diagnosis and resolution of software and hardware related issues.",
@@ -702,7 +576,6 @@
             "Hourly assistance"
           ]
         },
-
         "conexion-remota": {
           "name": "Technical Support via Remote Connection",
           "description": "Remote support through secure connections to resolve technical issues.",
@@ -715,7 +588,6 @@
             "Hourly assistance"
           ]
         },
-
         "soporte-247": {
           "name": "24/7 Phone and Remote Support",
           "description": "Continuous remote and phone support service available 24/7.",
@@ -784,7 +656,7 @@
       }
     }
   },
-   "SoporteQuoteCard": {
+  "SoporteQuoteCard": {
     "badge": "Premium Support",
     "title": {
       "line1": "Request quotes for",
@@ -809,6 +681,155 @@
       "text": "Request Quote",
       "modalTitle": "Request Service Quote",
       "submitText": "Send Request"
+    }
+  },
+  "CheckoutPage": {
+    "hero": {
+      "badge": "Secure checkout",
+      "title": {
+        "line1": "Review your order",
+        "line2": "and continue to payment"
+      },
+      "description": "First review the summary, apply a coupon if you have one, and then continue to the secure payment form.",
+      "step": "Step {current} of {total}"
+    },
+    "review": {
+      "title": "Order review",
+      "description": "Confirm the items in your cart, apply a coupon, and continue when everything looks right.",
+      "couponTitle": "Discount coupon",
+      "couponDescription": "Enter a valid code to apply a percentage discount.",
+      "couponPlaceholder": "Enter your code",
+      "applyCoupon": "Apply",
+      "availableCoupons": "Available codes",
+      "continueButton": "Continue to payment"
+    },
+    "form": {
+      "paymentSectionTitle": "Payment details",
+      "orderReference": "Order reference",
+      "cardSectionTitle": "Card information",
+      "fields": {
+        "firstName": {
+          "label": "First name",
+          "placeholder": "John"
+        },
+        "middleName": {
+          "label": "Middle name",
+          "placeholder": "Andrew"
+        },
+        "lastName": {
+          "label": "Last name",
+          "placeholder": "Doe"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "john@company.com"
+        },
+        "telefono": {
+          "label": "Phone",
+          "placeholder": "+52 55 0000 0000"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Mexico City"
+        },
+        "direccion": {
+          "label": "Address",
+          "placeholder": "Street, number, interior"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "CDMX"
+        },
+        "cp": {
+          "label": "Postal code",
+          "placeholder": "11560"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "MX"
+        },
+        "cardNumber": {
+          "label": "Card number",
+          "placeholder": "1234 5678 9012 3456"
+        },
+        "cardName": {
+          "label": "Name on card",
+          "placeholder": "John Doe"
+        },
+        "month": {
+          "label": "Month",
+          "placeholder": "MM"
+        },
+        "year": {
+          "label": "Year",
+          "placeholder": "YYYY"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123"
+        }
+      }
+    },
+    "summary": {
+      "title": "Order summary",
+      "itemsCount": "{count, plural, one {# item} other {# items}}",
+      "empty": "There are no items to display.",
+      "quantityPrefix": "Qty:",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "tax": "VAT (16%)",
+      "total": "Total due"
+    },
+    "security": {
+      "title": "Protected checkout",
+      "description": "Your payment is processed through a secure flow designed for a smooth checkout experience.",
+      "protected": "Secure and monitored checkout"
+    },
+    "buttons": {
+      "payNow": "Pay now",
+      "processing": "Processing...",
+      "backToReview": "Back to review"
+    },
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Add services to begin the checkout flow.",
+      "cta": "Browse services"
+    },
+    "errors": {
+      "emptyCart": "Your cart is empty.",
+      "firstName": "Please enter your first name.",
+      "lastName": "Please enter your last name.",
+      "email": "Please enter your email.",
+      "telefono": "Please enter your phone number.",
+      "city": "Please enter your city.",
+      "direccion": "Please enter your address.",
+      "state": "Please enter your state.",
+      "cp": "Please enter your postal code.",
+      "country": "Please enter your country.",
+      "cardNumber": "Please enter your card number.",
+      "cardName": "Please enter the name on the card.",
+      "month": "Please select the card expiration month.",
+      "year": "Please select the card expiration year.",
+      "cvv": "Please enter the CVV.",
+      "couponInvalid": "This coupon code is not valid.",
+      "paymentFailed": "The payment could not be completed."
+    },
+    "success": "Payment completed successfully.",
+    "alerts": {
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning"
+    },
+    "coupon": {
+      "appliedAlert": "Coupon {code} applied ({percentage}% off)",
+      "appliedShort": "{code} · {percentage}% off",
+      "removed": "Coupon removed",
+      "helper": "You can apply one of the available codes before continuing.",
+      "remove": "Remove coupon"
+    },
+    "logos": {
+      "cardsAlt": "Accepted cards",
+      "etominAlt": "Etomin payment"
     }
   }
 }

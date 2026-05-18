@@ -40,122 +40,6 @@
       "title": "Tecnología Empresarial"
     }
   },
-  "CheckoutPage": {
-    "empty": {
-      "title": "Tu carrito está vacío",
-      "description": "Agrega servicios al carrito antes de proceder al checkout.",
-      "cta": "Explorar servicios"
-    },
-    "hero": {
-      "badge": "Checkout seguro",
-      "title": "Finaliza tu compra",
-      "description": "Revisa tu carrito, completa tus datos y realiza el pago con un diseño limpio, elegante y enfocado en conversión."
-    },
-    "form": {
-      "paymentSectionTitle": "Datos de pago",
-      "orderPrefix": "Orden:",
-      "fields": {
-        "firstName": {
-          "label": "Nombre",
-          "placeholder": "Juan"
-        },
-        "lastName": {
-          "label": "Apellido",
-          "placeholder": "Pérez"
-        },
-        "email": {
-          "label": "Correo",
-          "placeholder": "correo@dominio.com"
-        },
-        "telefono": {
-          "label": "Teléfono",
-          "placeholder": "55 0000 0000"
-        },
-        "city": {
-          "label": "Ciudad",
-          "placeholder": "Ciudad de México"
-        },
-        "direccion": {
-          "label": "Dirección",
-          "placeholder": "Calle, número, colonia"
-        },
-        "state": {
-          "label": "Estado",
-          "placeholder": "CDMX"
-        },
-        "cp": {
-          "label": "Código postal",
-          "placeholder": "01000"
-        },
-        "country": {
-          "label": "País",
-          "placeholder": "MX"
-        },
-        "cardNumber": {
-          "label": "Número de tarjeta",
-          "placeholder": "0000 0000 0000 0000"
-        },
-        "cardName": {
-          "label": "Nombre en la tarjeta",
-          "placeholder": "JUAN PEREZ"
-        },
-        "month": {
-          "label": "Mes",
-          "placeholder": "Mes"
-        },
-        "year": {
-          "label": "Año",
-          "placeholder": "Año"
-        },
-        "cvv": {
-          "label": "CVV",
-          "placeholder": "123"
-        }
-      },
-      "cardSectionTitle": "Datos de la tarjeta"
-    },
-    "buttons": {
-      "processing": "Procesando pago...",
-      "payNow": "Pagar ahora"
-    },
-    "summary": {
-      "title": "Resumen",
-      "itemsCount": "{count, plural, one {# producto} other {# productos}}",
-      "empty": "Tu carrito está vacío.",
-      "quantityPrefix": "x",
-      "subtotal": "Subtotal",
-      "tax": "IVA (16%)",
-      "total": "Total"
-    },
-    "security": {
-      "title": "Pago seguro",
-      "description": "El cobro se procesa con Etomin usando autenticación, tokenización de tarjeta y venta directa desde el servidor.",
-      "protected": "Datos protegidos en tránsito"
-    },
-    "logos": {
-      "cardsAlt": "Tarjetas aceptadas",
-      "etominAlt": "Pasarela de pago Etomin"
-    },
-    "success": "Pago procesado correctamente. Tu orden fue registrada con éxito.",
-    "errors": {
-      "emptyCart": "Tu carrito está vacío.",
-      "firstName": "El nombre es obligatorio.",
-      "lastName": "El apellido es obligatorio.",
-      "email": "El correo es obligatorio.",
-      "telefono": "El teléfono es obligatorio.",
-      "city": "La ciudad es obligatoria.",
-      "direccion": "La dirección es obligatoria.",
-      "state": "El estado es obligatorio.",
-      "cp": "El código postal es obligatorio.",
-      "country": "El país es obligatorio.",
-      "cardNumber": "El número de tarjeta es obligatorio.",
-      "cardName": "El nombre de la tarjeta es obligatorio.",
-      "month": "El mes de expiración es obligatorio.",
-      "year": "El año de expiración es obligatorio.",
-      "cvv": "El CVV es obligatorio.",
-      "paymentFailed": "Error al procesar el pago"
-    }
-  },
   "aboutSection": {
     "imageAlt": "Equipo de tecnología",
     "floatingCard": {
@@ -342,7 +226,7 @@
     }
   },
   "securityServicePage": {
-    "taxes" : "+ IVA",
+    "taxes": "+ IVA",
     "hero": {
       "badge": "Seguridad Empresarial",
       "title": {
@@ -450,7 +334,7 @@
     }
   },
   "supportMaintenancePage": {
-    "taxes" : "+ IVA",
+    "taxes": "+ IVA",
     "hero": {
       "badge": "SERVICIO 01",
       "title": {
@@ -603,7 +487,7 @@
     }
   },
   "remoteSupportPage": {
-    "taxes" : "+ IVA",
+    "taxes": "+ IVA",
     "hero": {
       "title": "Soporte Remoto",
       "titleHighlight": "y en Sitio",
@@ -797,6 +681,155 @@
       "text": "Solicitar Cotización",
       "modalTitle": "Cotizar Servicio",
       "submitText": "Enviar Solicitud"
+    }
+  },
+  "CheckoutPage": {
+    "hero": {
+      "badge": "Pago seguro",
+      "title": {
+        "line1": "Revisa tu pedido",
+        "line2": "y continúa al pago"
+      },
+      "description": "Primero revisa el resumen, aplica un cupón si tienes uno y luego continúa al formulario seguro de pago.",
+      "step": "Paso {current} de {total}"
+    },
+    "review": {
+      "title": "Revisión del pedido",
+      "description": "Confirma los artículos de tu carrito, aplica un cupón y continúa cuando todo esté correcto.",
+      "couponTitle": "Cupón de descuento",
+      "couponDescription": "Ingresa un código válido para aplicar un descuento porcentual.",
+      "couponPlaceholder": "Ingresa tu código",
+      "applyCoupon": "Aplicar",
+      "availableCoupons": "Códigos disponibles",
+      "continueButton": "Continuar al pago"
+    },
+    "form": {
+      "paymentSectionTitle": "Datos de pago",
+      "orderReference": "Referencia del pedido",
+      "cardSectionTitle": "Información de la tarjeta",
+      "fields": {
+        "firstName": {
+          "label": "Nombre",
+          "placeholder": "Juan"
+        },
+        "middleName": {
+          "label": "Segundo nombre",
+          "placeholder": "Andrés"
+        },
+        "lastName": {
+          "label": "Apellidos",
+          "placeholder": "Pérez"
+        },
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "juan@empresa.com"
+        },
+        "telefono": {
+          "label": "Teléfono",
+          "placeholder": "+52 55 0000 0000"
+        },
+        "city": {
+          "label": "Ciudad",
+          "placeholder": "Ciudad de México"
+        },
+        "direccion": {
+          "label": "Dirección",
+          "placeholder": "Calle, número, interior"
+        },
+        "state": {
+          "label": "Estado",
+          "placeholder": "CDMX"
+        },
+        "cp": {
+          "label": "Código postal",
+          "placeholder": "11560"
+        },
+        "country": {
+          "label": "País",
+          "placeholder": "MX"
+        },
+        "cardNumber": {
+          "label": "Número de tarjeta",
+          "placeholder": "1234 5678 9012 3456"
+        },
+        "cardName": {
+          "label": "Nombre en la tarjeta",
+          "placeholder": "Juan Pérez"
+        },
+        "month": {
+          "label": "Mes",
+          "placeholder": "MM"
+        },
+        "year": {
+          "label": "Año",
+          "placeholder": "YYYY"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123"
+        }
+      }
+    },
+    "summary": {
+      "title": "Resumen del pedido",
+      "itemsCount": "{count, plural, one {# artículo} other {# artículos}}",
+      "empty": "No hay artículos para mostrar.",
+      "quantityPrefix": "Cant.:",
+      "subtotal": "Subtotal",
+      "discount": "Descuento",
+      "tax": "IVA (16%)",
+      "total": "Total a pagar"
+    },
+    "security": {
+      "title": "Checkout protegido",
+      "description": "Tu pago se procesa mediante un flujo seguro diseñado para una experiencia de compra fluida.",
+      "protected": "Checkout seguro y monitoreado"
+    },
+    "buttons": {
+      "payNow": "Pagar ahora",
+      "processing": "Procesando...",
+      "backToReview": "Volver al resumen"
+    },
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "description": "Agrega servicios para comenzar el proceso de pago.",
+      "cta": "Ver servicios"
+    },
+    "errors": {
+      "emptyCart": "Tu carrito está vacío.",
+      "firstName": "Por favor ingresa tu nombre.",
+      "lastName": "Por favor ingresa tus apellidos.",
+      "email": "Por favor ingresa tu correo electrónico.",
+      "telefono": "Por favor ingresa tu teléfono.",
+      "city": "Por favor ingresa tu ciudad.",
+      "direccion": "Por favor ingresa tu dirección.",
+      "state": "Por favor ingresa tu estado.",
+      "cp": "Por favor ingresa tu código postal.",
+      "country": "Por favor ingresa tu país.",
+      "cardNumber": "Por favor ingresa el número de tarjeta.",
+      "cardName": "Por favor ingresa el nombre de la tarjeta.",
+      "month": "Por favor selecciona el mes de expiración.",
+      "year": "Por favor selecciona el año de expiración.",
+      "cvv": "Por favor ingresa el CVV.",
+      "couponInvalid": "El código de cupón no es válido.",
+      "paymentFailed": "No se pudo completar el pago."
+    },
+    "success": "Pago completado correctamente.",
+    "alerts": {
+      "error": "Error",
+      "success": "Éxito",
+      "warning": "Aviso"
+    },
+    "coupon": {
+      "appliedAlert": "Cupón {code} aplicado ({percentage}% de descuento)",
+      "appliedShort": "{code} · {percentage}% de descuento",
+      "removed": "Cupón eliminado",
+      "helper": "Puedes aplicar uno de los códigos disponibles antes de continuar.",
+      "remove": "Quitar cupón"
+    },
+    "logos": {
+      "cardsAlt": "Tarjetas aceptadas",
+      "etominAlt": "Pago Etomin"
     }
   }
 }
