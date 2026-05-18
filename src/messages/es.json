@@ -617,7 +617,7 @@
     "left": {
       "title": "Hablemos de tu proyecto",
       "description": "Completa tus datos y te contactaremos con una propuesta clara y profesional.",
-      "email": "gestion@softvora.com.mx.mx",
+      "email": "gestion@softvora.com.mx",
       "phone": "55 5533 2511",
       "support": "Atención personalizada y seguimiento"
     },
@@ -830,6 +830,21 @@
     "logos": {
       "cardsAlt": "Tarjetas aceptadas",
       "etominAlt": "Pago Etomin"
+    }
+  },
+  "Contact": {
+    "alerts": {
+      "success": {
+        "title": "¡Mensaje enviado!",
+        "message": "Gracias por contactarnos. Un especialista de Softvora te responderá pronto.",
+        "confirmText": "Excelente"
+      },
+      "errors": {
+        "title": "Error de envío",
+        "sendFailed": "No se pudo enviar el mensaje",
+        "unknown": "Ocurrió un error inesperado",
+        "confirmText": "Reintentar"
+      }
     }
   }
 }

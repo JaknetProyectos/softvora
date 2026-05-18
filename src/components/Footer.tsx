@@ -73,7 +73,7 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="mailto:gestion@softvora.com.mx.mx"
+                href="mailto:gestion@softvora.com.mx"
                 className="group flex items-center gap-3 text-zinc-600 transition hover:text-yellow-600"
               >
                 <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-500 shadow-md">
@@ -81,7 +81,7 @@ export default function Footer() {
                 </div>
 
                 <span className="font-medium break-all">
-                  gestion@softvora.com.mx.mx
+                  gestion@softvora.com.mx
                 </span>
               </Link>
             </div>

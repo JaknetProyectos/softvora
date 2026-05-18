@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Softvora <gestion@softvora.com.mx.mx>",
+      from: "Softvora <gestion@softvora.com.mx>",
       to: [email],
       subject: "Hemos recibido tu solicitud",
       html: `
@@ -136,7 +136,7 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Formulario Web <gestion@softvora.com.mx.mx>",
+      from: "Formulario Web <gestion@softvora.com.mx>",
       to: ["ventas@softvora.com.mx"],
       subject: `Nuevo contacto recibido - ${asunto}`,
       html: `

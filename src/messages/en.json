@@ -617,7 +617,7 @@
     "left": {
       "title": "Let’s talk about your project",
       "description": "Fill in your details and we will contact you with a clear and professional proposal.",
-      "email": "gestion@softvora.com.mx.mx",
+      "email": "gestion@softvora.com.mx",
       "phone": "55 5533 2511",
       "support": "Personalized support and follow-up"
     },
@@ -830,6 +830,21 @@
     "logos": {
       "cardsAlt": "Accepted cards",
       "etominAlt": "Etomin payment"
+    }
+  },
+  "Contact": {
+    "alerts": {
+      "success": {
+        "title": "Message sent!",
+        "message": "Thank you for contacting us. A Softvora specialist will reach out to you shortly.",
+        "confirmText": "Great"
+      },
+      "errors": {
+        "title": "Sending error",
+        "sendFailed": "Failed to send the message",
+        "unknown": "An unexpected error occurred",
+        "confirmText": "Retry"
+      }
     }
   }
 }

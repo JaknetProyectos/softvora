@@ -41,7 +41,7 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Softvora <gestion@softvora.com.mx.mx>",
+      from: "Softvora <gestion@softvora.com.mx>",
       to: [customer.email],
       subject: `Confirmación de compra #${orderId}`,
       html: `
@@ -139,8 +139,8 @@ export async function POST(req: Request) {
     // =========================
 
     await resend.emails.send({
-      from: "Checkout Softvora <gestion@softvora.com.mx.mx>",
-      to: ["gestion@softvora.com.mx.mx"],
+      from: "Checkout Softvora <gestion@softvora.com.mx>",
+      to: ["gestion@softvora.com.mx"],
       subject: `Nueva orden recibida #${orderId}`,
       html: `
         <div style="background:#09090b;padding:40px;font-family:Arial,sans-serif;color:#ffffff;">
