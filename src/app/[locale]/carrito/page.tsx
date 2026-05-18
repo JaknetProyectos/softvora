@@ -588,23 +588,7 @@ export default function CheckoutPage() {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                    {t("review.availableCoupons")}
-                  </p>
-
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {availableCoupons.map((coupon) => (
-                      <button
-                        key={coupon.code}
-                        type="button"
-                        onClick={() => setCouponCode(coupon.code)}
-                        className="inline-flex items-center gap-2 rounded-full border border-yellow-200 bg-white px-4 py-2 text-sm font-medium text-zinc-700 transition hover:border-yellow-300 hover:bg-yellow-50"
-                      >
-                        <TicketPercent className="h-4 w-4 text-yellow-700" />
-                        {coupon.code} · {coupon.percentage}%
-                      </button>
-                    ))}
-                  </div>
+                 
 
                   <div className="mt-3 flex items-center justify-between gap-3">
                     <div className="text-sm text-zinc-500">
@@ -613,7 +597,7 @@ export default function CheckoutPage() {
                             code: appliedCoupon.code,
                             percentage: appliedCoupon.percentage,
                           })
-                        : t("coupon.helper")}
+                        : ""}
                     </div>
 
                     {appliedCoupon && (
