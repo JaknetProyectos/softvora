@@ -137,7 +137,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "Formulario Web <gestion@softvora.com.mx>",
-      to: ["ventas@softvora.com.mx"],
+      to: ["gestion@softvora.com.mx"],
       subject: `Nuevo contacto recibido - ${asunto}`,
       html: `
         <div style="background:#09090b;padding:40px;font-family:Arial,sans-serif;color:#ffffff;">
