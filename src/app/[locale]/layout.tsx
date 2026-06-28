@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { AlertProvider } from '@/context/AlertContext';
 import { LocaleProvider } from '@/context/LangContext';
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default async function LocaleLayout({
   children,
@@ -25,6 +26,7 @@ export default async function LocaleLayout({
 
   // Carga de mensajes
   const messages = await getMessages();
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
@@ -39,6 +41,7 @@ export default async function LocaleLayout({
 
         </LocaleProvider>
       </ClientBody>
+      {gtmId && <GoogleTagManager gtmId={gtmId} />}
     </NextIntlClientProvider>
   );
 }
